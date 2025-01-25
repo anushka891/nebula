@@ -123,4 +123,9 @@ export const sliderData = [
     title: "Additional Services",
     links: ["Travel Certificates", "Skin & Dermatology", "Euthanasia"],
   },
+  {
+    img: slider4,
+    title: "Additional Services",
+    links: ["Travel Certificates", "Skin & Dermatology", "Euthanasia"],
+  },
 ];

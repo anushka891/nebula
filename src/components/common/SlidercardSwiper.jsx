@@ -15,7 +15,13 @@ import { sliderData } from "../helper/Helper";
 export default function App() {
   return (
     <>
-      <Swiper pagination={true} modules={[Pagination]} className="mySwiper">
+      <Swiper
+        pagination={true}
+        modules={[Pagination]}
+        slidesPerView={4}
+        spaceBetween={20}
+        className="mySwiper"
+      >
         {sliderData.map((item, index) => (
           <SwiperSlide>
             <div

@@ -1,7 +1,5 @@
-{  "homepage": "https://<Username>.github.io/<Repository-name>",
-
+{
   "name": "nebula",
-
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -12,8 +10,7 @@
     "swiper": "^11.2.1",
     "tailwind": "^4.0.0"
   },
-  "scripts": { "predeploy": "npm run build",
-    "deploy": "gh-pages -d build" ,
+  "scripts": {  
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",

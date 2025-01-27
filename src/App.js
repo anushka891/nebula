@@ -5,7 +5,7 @@ import Sidebar from './components/common/Sidebar';
 import { useState } from 'react';
 import HomeSection from './components/pages/home/HomeSection';
 import Footer from './components/common/Footer';
-
+import ServicesSection from "./components/pages/home/ServicesSection"
 function App() {
   const [isSidebarOpen, setIsSidebarOpen] = useState(false);
 
@@ -18,7 +18,8 @@ function App() {
       <header>
         <Sidebar isSidebarOpen={isSidebarOpen} setIsSidebarOpen={toggleSidebar} />
         <Navbar setIsSidebarOpen={toggleSidebar} />
-        <HomeSection />
+        {/* <HomeSection /> */}
+       <ServicesSection/>
         <Footer/>
       </header>
     </div>

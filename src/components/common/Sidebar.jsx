@@ -10,7 +10,7 @@ export default function Sidebar({ isSidebarOpen, setIsSidebarOpen }) {
     >
       {/* Sidebar Menu */}
       <div
-        className={`fixed top-0 left-0 w-3/4 sm:w-2/3 h-full bg-white p-3 sm:p-6 transition-transform bg-[#494336] duration-300 ease-in-out max-w-[330px] sm:max-w-[400px] ${
+        className={`fixed top-0 left-0 w-3/4 sm:w-2/3 h-full p-3 sm:p-6 transition-transform bg-[#494336] duration-300 ease-in-out max-w-[330px] sm:max-w-[400px] ${
           isSidebarOpen ? "left-0" : "left-full"
         }`}
       >

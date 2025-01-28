@@ -13,6 +13,7 @@ import {
 } from "../helper/Helper";
 import bandage from "./../../assests/img/png/bandage.png";
 import surgery from "./../../assests/img/png/surgery.png";
+import Subheading from "../common/Subheading";
 function PreventiveCare() {
   return (
     <div>
@@ -195,20 +196,27 @@ function PreventiveCare() {
           </div>
         </div>
       </div>
-      <div className="bg-[#494336] flex-wrap flex sm:hidden">
-        <div className="px-8 pt-14 text-start">
-          <h2 className="text-2xl avant text-[#D7D9DD] font-normal mb-8">
-            We look forward to seeing you and your pet soon!
-          </h2>
-          <p className="text-sm avant leading-[22px] font-normal text-[#D7D9DD] mb-10">
-            Contact Nebula Vets today to schedule a consultation. Let us provide
-            your furry companion with the highest quality care and support,
-            ensuring a healthier and happier life for them.
-          </p>
-          <Button btnTitle={"BOOK NOW"} className={"text-[#494336]"} />
-        </div>
-        <div className="flex justify-end mt-[-120px] ml-auto mr-0">
-          <img src={foot} alt="footer" />
+      {/* looksection */}
+      <div className="flex sm:hidden">
+        <div className="bg-[#494336] flex-wrap">
+          <div className="px-8 pt-14 text-start max-w-[1180px] mx-auto px-8 md:px-10 lg:px-12">
+            <div className="max-w-[867px]">
+              <Subheading
+                subtitle={"We look forward to seeing you and your pet soon!"}
+                className={"text-[#D7D9DD] mb-8"}
+              />
+              <SubChild
+                title={
+                  "Contact Nebula Vets today to schedule a consultation. Let us provide your furry companion with the highest quality care and support, ensuring a healthier and happier life for them."
+                }
+                childClass={"text-[#D7D9DD] mb-11"}
+              />
+              <Button btnTitle={"BOOK NOW"} className={"text-[#494336]"} />
+            </div>
+          </div>
+          <div className="flex justify-end mt-[-120px] ml-auto mr-0">
+            <img src={foot} alt="footer" />
+          </div>
         </div>
       </div>
     </div>

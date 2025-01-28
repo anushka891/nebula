@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import logo from "./../../assests/img/png/logo.png";
 import { navData } from "../helper/Helper";
 import menu from "./../../assests/img/png/menuico.png";
+import Button from "./Button";
 function Navbar({ setIsSidebarOpen }) {
   return (
     <div className="bg-[#494336]">
@@ -26,12 +27,7 @@ function Navbar({ setIsSidebarOpen }) {
             </div>
 
             <div className="gap-10 hidden xl:flex items-center">
-              <a
-                className="text-[18px] font-medium leading-[137%] uppercase text-{#494336} roboto hover:text-white duration-300 py-3 px-10 bg-[linear-gradient(90deg,#FFA280_0%,#8FD9D9_100%)] rounded-[27px]"
-                href="#"
-              >
-                BOOK NOW
-              </a>
+              <Button btnTitle={"BOOK NOW"} />
             </div>
           </div>
           {/* Mobile Menu Button */}

@@ -23,3 +23,12 @@ code {
 .swiper-pagination-bullet-active{
   background: var(--Gradient-02, linear-gradient(90deg, #FFA280 0%, #8FD9D9 100%)) !important;
 }
+.text-linear{
+  background: linear-gradient(180deg, #FFA280 0%, #8FD9CB 100%);
+background-clip: text;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+}
+.swiper-wrapper{
+  margin-bottom: 0px !important;
+}

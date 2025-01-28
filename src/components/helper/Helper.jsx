@@ -226,3 +226,57 @@ export const checkLastData = [
     disc: "The decision to say goodbye to your pet is the most difficult decision you’ll have to make. Our team at nebula vets is here to guide you through the process with compassion and can perform end-of-life services at the time of your choosing.",
   },
 ];
+export const accordData = [
+  {
+    question: "Early Detection and Prevention ",
+    answer:
+      "Regular health checks are essential for detecting and preventing potential health issues before they become more serious. By identifying subtle changes in your pet's health, we can address them promptly, potentially saving them from discomfort, pain, and costly treatments in the long run.",
+  },
+  {
+    question: "Tailored Care for Different Life Stages",
+    answer:
+      "Pets go through various life stages, each with its unique needs. From playful puppies and curious kittens to mature adults and cherished seniors, our animal health checks are tailored to cater to your pet's specific life stage. We provide age-appropriate screenings, vaccinations, and personalized recommendations to support your pet's health at every stage of their journey.",
+  },
+  {
+    question: "Comprehensive Physical Examinations",
+    answer:
+      "Our skilled veterinarians perform thorough physical examinations during animal health checks, paying attention to your pet's overall appearance, body condition, vital signs, and specific areas of concern. We examine their eyes, ears, nose, mouth, teeth, skin, coat, muscles, joints, and abdomen, ensuring a comprehensive evaluation of their health.",
+  },
+  {
+    question: "Vaccinations and Preventive Care",
+    answer:
+      "Vaccinations are crucial for protecting your pet against contagious diseases. During the animal health check, we assess your pet's vaccination status and provide any necessary boosters or updates to ensure they remain protected. Additionally, we discuss preventive care measures such as flea and tick control, heartworm prevention, and parasite control, tailoring our recommendations to your pet's individual needs.",
+  },
+  {
+    question: "Diagnostic Screenings",
+    answer:
+      "Depending on your pet's age, breed, and medical history, we may recommend diagnostic screenings as part of the animal health check. These may include blood tests, urinalysis, fecal examinations, and imaging studies. These screenings help us assess your pet's internal health, detect underlying conditions, and provide a baseline for future comparisons.",
+  },
+  {
+    question: "Nutritional and Behavioral Guidance",
+    answer:
+      "Our veterinarians understand the impact of nutrition and behavior on your pet's overall health. During the animal health check, we offer guidance on proper nutrition, diet choices, feeding schedules, and exercise routines. We also address behavioral concerns and provide recommendations to foster a harmonious bond between you and your pet.",
+  },
+  {
+    question: "Client Education and Support",
+    answer:
+      "At Nebula Vets, we believe in empowering pet owners with knowledge. Our veterinarians take the time to explain the findings of the animal health check, address your questions, and provide guidance on maintaining your pet's well-being. We are here to support you on your pet care journey and offer resources for at-home care and preventive measures.",
+  },
+];
+export const accordSecondData = [
+  {
+    question: "Core Dog Vaccines",
+    answer:
+      "FVRCP: A combination vaccine that protects against Feline Viral Rhinotracheitis, Calicivirus, and Panleukopenia. Rabies: Legally required in most states, for both indoor and outdoor cats Feline Leukemia Virus: A virus transmitted through cat bites during fights. It’s recommended for kittens even if they will not be going outdoors.",
+  },
+  {
+    question: "Non-Core Dog Vaccines",
+    answer:
+      "Bordetella: A disease more commonly known as kennel cough and is required by dog boarding and daycare facilities. Lyme: Lyme Disease is carried by ticks and can be useful for dogs that visit areas, such as woodland areas, with high tick exposure. Canine Influenza Virus: Also called dog flu, a contagious virus that causes respiratory issues.",
+  },
+  {
+    question: "Cat Core Vaccines",
+    answer:
+      "FVRCP: A combination vaccine that protects against Feline Viral Rhinotracheitis, Calicivirus, and Panleukopenia. Rabies: Legally required in most states, for both indoor and outdoor cats Feline Leukemia Virus: A virus transmitted through cat bites during fights. It’s recommended for kittens even if they will not be going outdoors.",
+  },
+];

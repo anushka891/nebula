@@ -6,6 +6,8 @@ import { useState } from 'react';
 import HomeSection from './components/pages/home/HomeSection';
 import Footer from './components/common/Footer';
 import ServicesSection from "./components/pages/home/ServicesSection"
+import HealthCheck from './components/pages/home/HealthCheck';
+import Vaccinations from "./components/pages/home/Vaccinations"
 function App() {
   const [isSidebarOpen, setIsSidebarOpen] = useState(false);
 
@@ -19,8 +21,11 @@ function App() {
         <Sidebar isSidebarOpen={isSidebarOpen} setIsSidebarOpen={toggleSidebar} />
         <Navbar setIsSidebarOpen={toggleSidebar} />
         {/* <HomeSection /> */}
-       <ServicesSection/>
-        <Footer/>
+        {/* <ServicesSection /> */}
+        {/* <HealthCheck /> */}
+         <Vaccinations/>
+      
+        <Footer/> 
       </header>
     </div>
   );

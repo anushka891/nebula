@@ -317,3 +317,136 @@ export const accordDentalData = [
       "We believe in empowering pet owners with knowledge. Our dental care services include client education on proper dental hygiene at home, brushing techniques, and recommended dental care products. We provide guidance on preventive measures, diet choices, and regular dental check-ups to maintain your pet's oral health between visits.",
   },
 ];
+export const accordEmergencyData = [
+  {
+    question: "Immediate Access to Care",
+    answer:
+      "We know that emergencies require swift action. At Nebula Vets, we prioritize providing prompt access to emergency and urgent care services. Our facility is equipped to handle a wide range of emergencies, and our experienced team is ready to address critical situations with efficiency and expertise.",
+  },
+  {
+    question: "Skilled Veterinary Team",
+    answer:
+      "Our veterinarians have extensive experience in emergency medicine and are well-versed in handling urgent and critical cases. They possess the knowledge, skills, and quick decision-making abilities necessary to provide the best possible care for your pet in emergency situations.",
+  },
+  {
+    question: "State-of-the-Art Facilities",
+    answer:
+      "Nebula Vets is equipped with advanced diagnostic equipment and medical technology to support our emergency and urgent care services. From digital radiography and ultrasound to an in-house laboratory, we have the tools needed to quickly and accurately diagnose your pet's condition, enabling us to provide appropriate and timely treatments.",
+  },
+  {
+    question: "Compassionate and Calm Approach",
+    answer:
+      "We understand that emergencies can be stressful and emotional for both you and your pet. Our veterinary team is trained to handle these situations with compassion and a calm demeanor. We prioritize providing a comforting environment to help alleviate anxiety and provide support to both you and your pet during difficult times.",
+  },
+  {
+    question: "Comprehensive Emergency Services",
+    answer:
+      "Nebula Vets offers a wide range of emergency services, including critical care, trauma management, stabilization, pain management, and advanced life-saving procedures. We are equipped to handle various emergencies, such as severe injuries, poisoning, respiratory distress, seizures, and more.",
+  },
+  {
+    question: "Collaborative Care",
+    answer:
+      "We believe in open communication and collaboration. Our team works closely with you to ensure you understand your pet's condition, treatment options, and associated costs. We provide transparent and compassionate guidance to help you make informed decisions about your pet's emergency care.",
+  },
+  {
+    question: "Seamless Referrals",
+    answer:
+      "In complex cases requiring specialized care, we maintain strong relationships with local specialty hospitals and can facilitate seamless referrals when necessary. We work together with trusted specialists to ensure your pet receives the best possible care for their specific needs.",
+  },
+  {
+    question: "Emergency Preparedness",
+    answer:
+      "We encourage pet owners to be prepared for emergencies. Keep our contact information readily available and familiarize yourself with basic first aid for pets. Prompt action and early intervention can make a significant difference in emergency situations.",
+  },
+];
+export const medicineData = [
+  {
+    title: "1.",
+    heading: "Book a telemedicine consult",
+    disc: "Click the chat with vet button below to join a que for a telemedicine online visit.",
+  },
+  {
+    title: "2.",
+    heading: "Join with the link",
+    disc: "A custom link will be sent to your email",
+  },
+  {
+    title: "3.",
+    heading: "Video chat",
+    disc: "In a real-time online visit, share with the vet your pet’s current issues.",
+  },
+  {
+    title: "4.",
+    heading: "Treatment",
+    disc: "Our veterinarian will evaluate your pet and discuss next steps, which may include medication.",
+  },
+];
+export const accordPharmData = [
+  {
+    question: "Convenience",
+    answer:
+      "Having an in-house pharmacy at our veterinary practice means you can conveniently obtain all your pet's medications and healthcare products in one place. No more running to different locations or waiting for orders to arrive. Our knowledgeable pharmacy team is ready to assist you and provide expert guidance on proper medication administration.",
+  },
+  {
+    question: "Quality Assurance",
+    answer:
+      "We understand the importance of ensuring the safety and effectiveness of medications for your pets. Our pharmacy sources medications directly from reputable manufacturers, guaranteeing their authenticity, quality, and proper storage. You can have peace of mind knowing that the medications you receive from us are of the highest standard.",
+  },
+  {
+    question: "Prescription Medications",
+    answer:
+      "Our pharmacy carries a wide range of prescription medications to address various medical conditions and treatments. Our veterinarians will carefully evaluate your pet's needs and prescribe the most appropriate medication, dosages, and duration. Our goal is to support your pet's health and recovery with the right medications tailored to their specific requirements.",
+  },
+  {
+    question: "Prescription Diets",
+    answer:
+      "We offer a selection of therapeutic prescription diets designed to address specific dietary needs and support various health conditions. Whether your pet requires a special diet for weight management, food allergies, kidney disease, or other health concerns, our pharmacy can provide you with the necessary options to meet their nutritional requirements.",
+  },
+  {
+    question: "Wellness and Preventive Products",
+    answer:
+      "Beyond medications, our pharmacy also stocks a range of wellness and preventive products to support your pet's overall health. This includes flea and tick preventives, heartworm preventives, joint supplements, dental care products, grooming supplies, and more. Our knowledgeable team can help you choose the right products to keep your pet healthy and thriving.",
+  },
+  {
+    question: "Expert Guidance",
+    answer:
+      "Our pharmacy team is composed of experienced professionals who are dedicated to providing you with personalized service and guidance. We are here to answer your questions, address any concerns, and offer advice on medication administration, potential side effects, and proper storage.ur pharmacy team is composed of experienced professionals who are dedicated to providing you with personalized service and guidance. We are here to answer your questions, address any concerns, and offer advice on medication administration, potential side effects, and proper storage.",
+  },
+  {
+    question: "Prescription Refills",
+    answer:
+      "If your pet requires ongoing medication, our pharmacy makes it easy for you to refill prescriptions. Simply contact us, and we will have your pet's medications ready for pick-up or arrange for convenient delivery options.",
+  },
+];
+export const accordSurgeryData = [
+  {
+    question: "Expert Surgical Team",
+    answer:
+      "Our team of skilled veterinarians brings years of experience and expertise to the operating table. With a deep understanding of advanced surgical techniques and a commitment to staying abreast of the latest advancements in veterinary surgery, our surgeons are well-equipped to handle a wide range of procedures with exceptional skill and care.",
+  },
+  {
+    question: "Comprehensive Surgical Services",
+    answer:
+      "From routine spays and neuters to complex soft tissue surgeries, orthopedic procedures, tumor removals, and emergency surgeries, our hospital offers a comprehensive range of surgical services tailored to meet the unique needs of your pet. You can trust us to deliver personalized surgical solutions that prioritize your pet's well-being.",
+  },
+  {
+    question: "Cutting-Edge Facilities and Technology",
+    answer:
+      "At Nebula Vets, we take pride in our state-of-the-art surgical facilities and advanced equipment. Our hospital is equipped with modern anesthesia monitoring systems, surgical instruments, and techniques, ensuring the highest level of safety, precision, and comfort for your pet..",
+  },
+  {
+    question: "Personalized Care",
+    answer:
+      "We understand that each pet is unique, and their surgical needs require individualized attention. Our veterinarians take the time to thoroughly evaluate your pet's health, discuss treatment options, and design a customized surgical plan tailored to their specific condition and requirements. We value open communication and are always available to address any concerns or questions you may have.",
+  },
+  {
+    question: "Optimal Safety and Comfort",
+    answer:
+      "Your pet's safety and comfort are of paramount importance to us. Our experienced team utilizes the latest anesthetic protocols tailored to your pet's needs, and we closely monitor their vital signs throughout the entire surgical procedure. We also employ advanced pain management techniques to ensure your pet's well-being and minimize any discomfort.",
+  },
+  {
+    question: "Compassionate Post-Surgical Care",
+    answer:
+      "Our commitment to your pet's well-being extends beyond the operating room. After surgery, we provide attentive post-operative care to support their recovery. We provide detailed instructions on at-home care, pain management, and follow-up appointments to ensure a smooth healing process. Our caring staff is always here to address any concerns and provide support during your pet's recovery journey.",
+  },
+];

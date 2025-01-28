@@ -1,12 +1,18 @@
 import React from "react";
 import HeroEmergency from "../../Emergency/HeroEmergency";
-import EmergencyCare from "../../Emergency/EmergencyCare";
+import CareSection from "../../Emergency/CareSection";
+import WhyDental from "../../DentalCare/WhyDental";
+import Accordion from "../../Emergency/AccordianEmergency";
+import WeLook from "../../Emergency/WeLook";
 
 function Emergency() {
   return (
     <>
       <HeroEmergency />
-      <EmergencyCare />
+      <CareSection />
+      <WhyDental />
+      <Accordion />
+      <WeLook />
     </>
   );
 }

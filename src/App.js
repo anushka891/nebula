@@ -10,6 +10,9 @@ import HealthCheck from './components/pages/home/HealthCheck';
 import Vaccinations from "./components/pages/home/Vaccinations"
 import DentalCare from "./components/pages/home/DentalCare"
 import Emergency from './components/pages/home/Emergency';
+import Medinice from './components/pages/home/Medinice';
+import Pharmecy from './components/pages/home/Pharmecy';
+import Surgery from './components/pages/home/Surgery';
 function App() {
   const [isSidebarOpen, setIsSidebarOpen] = useState(false);
 
@@ -27,7 +30,10 @@ function App() {
         {/* <HealthCheck /> */}
          {/* <Vaccinations/> */}
         {/* <DentalCare/> */}
-        <Emergency/>
+        {/* <Emergency/> */}
+        {/* <Medinice/> */}
+        {/* <Pharmecy/> */}
+        <Surgery/>
         <Footer/> 
       </header>
     </div>

@@ -280,3 +280,40 @@ export const accordSecondData = [
       "FVRCP: A combination vaccine that protects against Feline Viral Rhinotracheitis, Calicivirus, and Panleukopenia. Rabies: Legally required in most states, for both indoor and outdoor cats Feline Leukemia Virus: A virus transmitted through cat bites during fights. It’s recommended for kittens even if they will not be going outdoors.",
   },
 ];
+export const accordDentalData = [
+  {
+    question: "Oral Health and Beyond",
+    answer:
+      "Dental health plays a significant role in your pet's overall well-being. Poor oral hygiene can lead to various issues such as gum disease, tooth decay, infections, and even systemic health problems affecting vital organs. Regular dental care can prevent these issues, promoting a healthier and longer life for your furry friend.",
+  },
+  {
+    question: "Comprehensive Dental Examinations",
+    answer:
+      "Our skilled veterinarians perform thorough dental examinations, assessing your pet's teeth, gums, and oral tissues. We check for signs of dental disease, tartar buildup, tooth decay, and other oral abnormalities. This comprehensive evaluation allows us to detect potential issues early and provide timely treatment.",
+  },
+  {
+    question: "Professional Teeth Cleaning",
+    answer:
+      "Dental cleanings are an essential part of maintaining your pet's oral health. Our state-of-the-art dental equipment and techniques allow us to perform professional cleanings with precision and care. We remove plaque, tartar, and bacteria from the teeth and gum line, ensuring a fresh and clean mouth.",
+  },
+  {
+    question: "Periodontal Disease Management",
+    answer:
+      "Periodontal disease is a common dental condition in pets. We are well-equipped to manage and treat this condition. Our dental services include deep cleaning, periodontal therapy, and extraction of severely affected teeth, providing relief and restoring oral health.",
+  },
+  {
+    question: "Tooth Extractions and Oral Surgery",
+    answer:
+      "In some cases, tooth extractions or oral surgery may be necessary to address severe dental disease, fractured teeth, or other oral conditions. Our veterinarians have expertise in performing these procedures with precision and ensuring your pet's comfort throughout.",
+  },
+  {
+    question: "Pain Management and Anesthesia",
+    answer:
+      "Your pet's comfort is our priority. We utilize modern anesthesia protocols and advanced pain management techniques to ensure their safety and minimize any discomfort during dental procedures. Our experienced team closely monitors your pet throughout the process, ensuring a smooth and stress-free experience.",
+  },
+  {
+    question: "Client Education and Home Care",
+    answer:
+      "We believe in empowering pet owners with knowledge. Our dental care services include client education on proper dental hygiene at home, brushing techniques, and recommended dental care products. We provide guidance on preventive measures, diet choices, and regular dental check-ups to maintain your pet's oral health between visits.",
+  },
+];

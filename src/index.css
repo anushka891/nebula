@@ -32,3 +32,9 @@ background-clip: text;
 .swiper-wrapper{
   margin-bottom: 0px !important;
 }
+.linear-border{
+  border-bottom: 1px solid transparent;
+border-image: linear-gradient(to right, rgba(255, 159, 128, 1),  rgba(140, 214, 214, 1));
+border-image-slice: 1;
+
+}

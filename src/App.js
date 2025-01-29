@@ -16,6 +16,9 @@ import Surgery from './components/pages/home/Surgery';
 import SpraySection from './components/pages/home/SpraySection';
 import Travel from './components/pages/home/Travel';
  import Skin from "./components/pages/home/Skin"
+import MicroChipping from './components/pages/home/MicroChipping';
+import Lacer from "./components/pages/home/Laser"
+import Laser from './components/pages/home/Laser';
  function App() {
   const [isSidebarOpen, setIsSidebarOpen] = useState(false);
 
@@ -39,7 +42,9 @@ import Travel from './components/pages/home/Travel';
         {/* <Surgery/> */}
         {/* <SpraySection/> */}
          {/* <Travel/> */}
-        <Skin/> 
+        {/* <Skin/>  */}
+        {/* <MicroChipping/> */}
+        <Laser/>
         <Footer/> 
       </header>
     </div>

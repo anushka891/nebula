@@ -524,3 +524,40 @@ export const accordSkinData = [
       "Dermatological conditions often require ongoing management. We offer follow-up appointments to monitor your pet's progress, adjust treatment plans if needed, and ensure optimal skin health in the long run. We are committed to being with you every step of the way.",
   },
 ];
+export const accordLacerData = [
+  {
+    question: "Pain Relief",
+    answer:
+      "During a laser therapy session, a handheld device emits a concentrated beam of laser light that penetrates the targeted tissues. The light energy is absorbed by the cells, stimulating the production of adenosine triphosphate (ATP), a molecule that fuels cellular activities. This increase in ATP promotes accelerated tissue repair, reduces inflammation, and relieves pain.",
+  },
+  {
+    question: "Accelerated Healing",
+    answer:
+      "The focused laser light stimulates cellular metabolism and blood flow to the treated area, enhancing the delivery of oxygen, nutrients, and immune cells. This accelerated healing process promotes tissue repair, reduces scar tissue formation, and aids in wound healing.",
+  },
+  {
+    question: "Reduced Inflammation",
+    answer:
+      "Laser therapy has anti-inflammatory effects by reducing swelling and increasing lymphatic drainage. This is especially beneficial for pets with inflammatory conditions, such as soft tissue injuries, skin infections, or dental diseases.",
+  },
+  {
+    question: "Non-Invasive and Drug-Free",
+    answer:
+      "Laser therapy is a non-invasive alternative to traditional pain management methods, such as medication or surgery. It does not require anesthesia or sedation, making it a safe and stress-free option for pets.",
+  },
+  {
+    question: "Enhanced Mobility",
+    answer:
+      "Pets experiencing joint stiffness or limited mobility due to musculoskeletal conditions can benefit from laser therapy. By reducing inflammation, relieving pain, and promoting tissue repair, laser therapy helps improve range of motion, allowing pets to move more comfortably.",
+  },
+  {
+    question: "Quick and Convenient",
+    answer:
+      "Laser therapy sessions are typically short and can be completed within a few minutes. Pets experience no discomfort during the treatment and often find it relaxing. The frequency and duration of the sessions depend on the pet's condition and response to therapy.",
+  },
+  {
+    question: "Complementary to Other Treatments",
+    answer:
+      "Laser therapy can be used in conjunction with other treatment modalities to enhance overall outcomes. It can complement medications, rehabilitation exercises, acupuncture, or post-operative care, providing a holistic approach to pet healthcare.",
+  },
+];

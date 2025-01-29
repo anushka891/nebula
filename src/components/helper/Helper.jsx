@@ -450,3 +450,77 @@ export const accordSurgeryData = [
       "Our commitment to your pet's well-being extends beyond the operating room. After surgery, we provide attentive post-operative care to support their recovery. We provide detailed instructions on at-home care, pain management, and follow-up appointments to ensure a smooth healing process. Our caring staff is always here to address any concerns and provide support during your pet's recovery journey.",
   },
 ];
+export const accordSprayData = [
+  {
+    question: "Experienced Surgical Team",
+    answer:
+      "At Nebula Vets, our veterinarians have extensive experience in performing spay and neuter surgeries. They possess the expertise to perform these procedures efficiently and safely, ensuring the best possible outcome for your pet.",
+  },
+  {
+    question: "Health Benefits",
+    answer:
+      "Spaying (for females) and neutering (for males) offer numerous health benefits for your pets. Spaying helps prevent uterine infections and reduces the risk of mammary tumors and ovarian cancers, while neutering eliminates the risk of testicular cancer and reduces the incidence of prostate problems. These procedures can also help in curbing certain behavioral issues related to mating instincts.",
+  },
+  {
+    question: "Surgical Expertise",
+    answer:
+      "Our veterinary hospital is equipped with state-of-the-art surgical facilities and advanced monitoring equipment. We utilize modern anesthetic protocols and closely monitor your pet's vital signs during the procedure, ensuring their safety and well-being. Our surgical team adheres to the highest standards of precision and sterilization to minimize the risk of complications.",
+  },
+  {
+    question: "Personalized Care",
+    answer:
+      "At Nebula Vets, we believe in providing personalized care for each pet. Our veterinarians will evaluate your pet's overall health and discuss the appropriate timing and procedure options based on their age, breed, and individual needs. We prioritize open communication and are here to answer any questions or address any concerns you may have.",
+  },
+  {
+    question: "Compassionate Post-Surgical Care",
+    answer:
+      "After the spay or neuter procedure, our dedicated staff provides compassionate post-operative care to support your pet's recovery. We provide detailed instructions on pain management, incision care, and follow-up appointments to ensure a smooth healing process. Our team is available to address any concerns and provide guidance throughout your pet's recovery journey.",
+  },
+  {
+    question: "Overpopulation Control",
+    answer:
+      "By choosing to spay or neuter your pet, you contribute to controlling the overpopulation of animals. Countless unwanted animals end up in shelters or face a life on the streets. Spaying and neutering are responsible choices that help reduce the number of homeless pets and ensure a healthier pet population overall.",
+  },
+];
+export const accordSkinData = [
+  {
+    question: "Specialized Expertise",
+    answer:
+      "Our veterinary team includes experienced dermatologists who have a deep understanding of skin conditions and diseases affecting pets. With their specialized knowledge and advanced training, they are equipped to diagnose and treat a wide range of dermatological issues.",
+  },
+  {
+    question: "Comprehensive Skin Examinations",
+    answer:
+      "We begin with a thorough examination of your pet's skin, coat, and overall health. Our dermatologists will assess any existing skin problems, identify potential allergies or infections, and perform necessary diagnostic tests to determine the root cause of the issue.",
+  },
+  {
+    question: "Advanced Diagnostic Techniques",
+    answer:
+      "At Nebula Vets, we employ state-of-the-art diagnostic techniques to gain a comprehensive understanding of your pet's skin condition. This may include skin scrapings, cytology, bacterial and fungal cultures, allergy testing, and biopsies. These tests provide valuable insights that guide our treatment approach.",
+  },
+  {
+    question: "Personalized Treatment Plans",
+    answer:
+      "Every pet is unique, and their skin care needs vary. Our dermatologists develop personalized treatment plans tailored to your pet's specific condition, considering factors such as their breed, age, and medical history. We utilize a combination of medications, topical treatments, dietary adjustments, and lifestyle modifications to address the underlying causes and provide effective relief.",
+  },
+  {
+    question: "Allergy Management",
+    answer:
+      "Allergies are a common cause of skin issues in pets. Our dermatologists have expertise in identifying and managing allergies, whether they are due to food, environmental factors, or parasites. We offer allergy testing, immunotherapy, and recommend appropriate allergen avoidance strategies to help your pet find relief.",
+  },
+  {
+    question: "Parasite Control",
+    answer:
+      "Fleas, ticks, and other parasites can wreak havoc on your pet's skin and coat. Our dermatology services include comprehensive parasite control, providing preventive measures and effective treatment options to keep your pet protected and their skin healthy.",
+  },
+  {
+    question: "Client Education and Support",
+    answer:
+      "We believe in empowering pet owners with knowledge and understanding. Our dermatology team will provide you with detailed information about your pet's skin condition, treatment options, and long-term care recommendations. We are here to answer your questions and support you throughout your pet's skin care journey.",
+  },
+  {
+    question: "Follow-up Care",
+    answer:
+      "Dermatological conditions often require ongoing management. We offer follow-up appointments to monitor your pet's progress, adjust treatment plans if needed, and ensure optimal skin health in the long run. We are committed to being with you every step of the way.",
+  },
+];

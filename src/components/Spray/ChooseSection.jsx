@@ -1,21 +1,22 @@
 import React from "react";
-import WeLook from "../Emergency/WeLook";
-import SubChild from "../common/SubChild";
 import Subheading from "../common/Subheading";
+import SubChild from "../common/SubChild";
 import Button from "../common/Button";
 import foot from "./../../assests/img/png/surgery-wave-position.png";
 function ChooseSection() {
   return (
-    <>
-      <div className="bg-[rgba(215,217,221,0.50);]">
+    <div>
+      <div className="bg-[rgba(215,217,221,0.50);] mb-0 sm:mb-6 md:mb-14">
         <div className="text-start max-w-[1180px] px-8 md:px-10 lg:px-12 mx-auto py-14 md:py-20">
           <Subheading
-            subtitle={"Choose Nebula Vets for Exceptional Surgical Care:"}
+            subtitle={
+              "Choose Nebula Vets for Exceptional Spay and Neuter Services:"
+            }
             className={"pb-9"}
           />
           <SubChild
             title={
-              "When it comes to your pet's surgical needs, Nebula Vets stands out as a trusted choice. We offer exceptional surgical care with compassion, expertise, and advanced technology. Your pet's well-being is our top priority, and we are committed to providing the highest quality surgical services to help them live a healthy and happy life."
+              "When it comes to spaying and neutering, Nebula Vets is your trusted partner. We offer exceptional surgical care with compassion, expertise, and a focus on your pet's well-being. By choosing us, you are making a responsible decision that promotes their health, prevents unwanted litters, and contributes to a healthier pet population overall."
             }
           />
         </div>
@@ -29,7 +30,7 @@ function ChooseSection() {
             />
             <SubChild
               title={
-                "Contact Nebula Vets today to schedule a consultation or discuss your pet's surgical needs. Let us be your partner in providing outstanding surgical care for your furry companion."
+                "Contact Nebula Vets today to schedule a consultation or discuss your pet's spay or neuter procedure. Let us provide your furry companion with the highest quality care and support, ensuring a healthier and happier life for them."
               }
               childClass={"text-[#D7D9DD] mb-11"}
             />
@@ -40,7 +41,7 @@ function ChooseSection() {
           <img src={foot} alt="footer" width={"100%"} />
         </div>
       </div>
-    </>
+    </div>
   );
 }
 

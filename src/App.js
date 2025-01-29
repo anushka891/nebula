@@ -13,7 +13,10 @@ import Emergency from './components/pages/home/Emergency';
 import Medinice from './components/pages/home/Medinice';
 import Pharmecy from './components/pages/home/Pharmecy';
 import Surgery from './components/pages/home/Surgery';
-function App() {
+import SpraySection from './components/pages/home/SpraySection';
+import Travel from './components/pages/home/Travel';
+ import Skin from "./components/pages/home/Skin"
+ function App() {
   const [isSidebarOpen, setIsSidebarOpen] = useState(false);
 
   const toggleSidebar = () => {
@@ -33,7 +36,10 @@ function App() {
         {/* <Emergency/> */}
         {/* <Medinice/> */}
         {/* <Pharmecy/> */}
-        <Surgery/>
+        {/* <Surgery/> */}
+        {/* <SpraySection/> */}
+         {/* <Travel/> */}
+        <Skin/> 
         <Footer/> 
       </header>
     </div>

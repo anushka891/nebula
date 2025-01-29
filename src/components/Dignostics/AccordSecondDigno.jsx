@@ -1,5 +1,9 @@
 import React, { useState } from "react";
-import { accordEmergencyData } from "../helper/Helper";
+import {
+  accordDignoData,
+  accordEmergencyData,
+  accordSecondDignoData,
+} from "../helper/Helper";
 import minus from "./../../assests/img/png/minus-icon-1.png";
 import plus from "./../../assests/img/png/plus-icon.png";
 
@@ -50,7 +54,7 @@ const Accordion = () => {
   return (
     <div className="mb-14 md:mb-20">
       <div className="accordion w-full">
-        {accordEmergencyData.map((item, index) => (
+        {accordSecondDignoData.map((item, index) => (
           <AccordionItem
             key={index}
             question={item.question}

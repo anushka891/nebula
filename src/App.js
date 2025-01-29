@@ -19,6 +19,10 @@ import Travel from './components/pages/home/Travel';
 import MicroChipping from './components/pages/home/MicroChipping';
 import Lacer from "./components/pages/home/Laser"
 import Laser from './components/pages/home/Laser';
+import Hospice from './components/pages/home/Hospice';
+import HeroDigno from './components/Dignostics/HeroDigno';
+import Dignostics from './components/pages/home/Dignostics';
+import Washington from './components/pages/home/Washington';
  function App() {
   const [isSidebarOpen, setIsSidebarOpen] = useState(false);
 
@@ -44,7 +48,10 @@ import Laser from './components/pages/home/Laser';
          {/* <Travel/> */}
         {/* <Skin/>  */}
         {/* <MicroChipping/> */}
-        <Laser/>
+        {/* <Laser/> */}
+        {/* <Hospice/> */}
+        {/* <Dignostics/> */}
+        <Washington/>
         <Footer/> 
       </header>
     </div>

@@ -1,7 +1,6 @@
 import React from "react";
 import SubChild from "../common/SubChild";
 import Subheading from "../common/Subheading";
-import WeLook from "../HealthCheck/WeLook";
 import Button from "../common/Button";
 import foot from "./../../assests/img/png/we-lookimg.png";
 function ExperienceSection() {

@@ -23,6 +23,8 @@ import Hospice from './components/pages/home/Hospice';
 import HeroDigno from './components/Dignostics/HeroDigno';
 import Dignostics from './components/pages/home/Dignostics';
 import Washington from './components/pages/home/Washington';
+import JoinPage from './components/pages/home/JoinPage';
+import AboutNebula from './components/pages/home/AboutNebula';
  function App() {
   const [isSidebarOpen, setIsSidebarOpen] = useState(false);
 
@@ -51,7 +53,9 @@ import Washington from './components/pages/home/Washington';
         {/* <Laser/> */}
         {/* <Hospice/> */}
         {/* <Dignostics/> */}
-        <Washington/>
+        {/* <Washington/> */}
+        {/* <JoinPage/> */}
+        <AboutNebula/>
         <Footer/> 
       </header>
     </div>

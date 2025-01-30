@@ -615,3 +615,35 @@ export const accordSecondDignoData = [
       "Echocardiogram services to assess the health and function of your pet's heart. An echocardiogram, also known as a cardiac ultrasound, is a non-invasive and painless procedure that provides detailed images of the heart's structures and function.",
   },
 ];
+export const accordJoinData = [
+  {
+    question: "Commitment to Excellence",
+    answer:
+      "At Nebula Vets, we strive for excellence in everything we do. Our team is committed to providing the highest quality veterinary care, utilizing advanced technologies, and staying up-to-date with the latest advancements in the field. We foster a culture of continuous learning and growth, encouraging our team members to expand their knowledge and skills.",
+  },
+  {
+    question: "Collaborative and Supportive Environment",
+    answer:
+      "We value teamwork and collaboration. At Nebula Vets, you will be part of a supportive and inclusive team that shares a common goal: providing exceptional care to our patients. Our collaborative environment encourages open communication, knowledge sharing, and mutual support among team members.",
+  },
+  {
+    question: "Advanced Facilities and Technology",
+    answer:
+      "Nebula Vets is equipped with state-of-the-art facilities and cutting-edge technology to support our veterinary professionals. We believe in investing in the best resources to deliver outstanding care. Our advanced equipment and tools enable our team to provide accurate diagnoses and deliver effective treatments.",
+  },
+  {
+    question: "Focus on Work-Life Balance",
+    answer:
+      "We understand the importance of maintaining a healthy work-life balance. At Nebula Vets, we strive to create schedules that allow our team members to enjoy their personal lives while pursuing fulfilling careers. We prioritize employee well-being and believe that a happy team leads to better patient care.",
+  },
+  {
+    question: "Continuous Professional Development",
+    answer:
+      "Nebula Vets is committed to the growth and development of our team members. We offer opportunities for continuing education, conferences, workshops, and training programs to enhance your veterinary skills and broaden your knowledge base. We believe in supporting your professional goals and providing the resources you need to excel in your career.",
+  },
+  {
+    question: "A Culture of Compassion",
+    answer:
+      "At Nebula Vets, compassion is at the heart of everything we do. We not only care for our patients but also prioritize empathy and understanding towards their families. Our team is dedicated to delivering personalized care with kindness, sensitivity, and respect.",
+  },
+];

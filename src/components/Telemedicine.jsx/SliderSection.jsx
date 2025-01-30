@@ -32,8 +32,11 @@ function SliderSection() {
               640: {
                 slidesPerView: 2.6,
               },
-              850: {
+              700: {
                 slidesPerView: 3,
+              },
+              850: {
+                slidesPerView: 3.2,
               },
               1280: {
                 slidesPerView: 4,

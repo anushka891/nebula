@@ -33,7 +33,7 @@ function SnapTest() {
                 slidesPerView: 2,
               },
             }}
-            className="mySwiper"
+            className="mySwiper brown"
           >
             <SwiperSlide className="!h-auto">
               <div className="max-w-[530px] w-full relative bg-[#494336] h-full">

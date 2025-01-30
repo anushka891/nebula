@@ -59,7 +59,7 @@ function HeroJoin() {
               slidesPerView: 2.5,
             },
           }}
-          className="mySwiper"
+          className="mySwiper linear-pagination colorful"
         >
           <SwiperSlide className="min-h-[384px] w-full max-w-[428px]">
             <div className="max-w-[428px] w-full">

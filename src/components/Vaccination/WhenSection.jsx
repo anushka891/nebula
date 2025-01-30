@@ -135,7 +135,7 @@ function WhenSection() {
         >
           <div className="flex gap-5 gap-y-5">
             <SwiperSlide className="md:!h-auto">
-              <div className="bg-[#494336] max-w-[547px] pl-5 lg:pl-12 pr-5 pt-9 pb-14 text-start h-full mx-auto mt-[22px]">
+              <div className="bg-[#494336] max-w-[547px] pl-5 lg:pl-12 pr-5 pt-9 pb-14 text-start h-full mx-auto mt-14 md:mt-[22px]">
                 <div className="flex items-center gap-5 mb-4 lg:mb-9">
                   <div>
                     <img src={logo} alt="logo" />

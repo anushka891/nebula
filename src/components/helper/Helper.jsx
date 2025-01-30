@@ -23,18 +23,10 @@ export const dogsliderData = [
   },
 ];
 export const careData = [
-  {
-    title: "Preventive Care",
-  },
-  {
-    title: "Sick Patient Care",
-  },
-  {
-    title: "Surgery",
-  },
-  {
-    title: "Additional Services",
-  },
+  { url: "/prevent", title: "Preventive Care" },
+  { url: "/prevent", title: "Sick Patient Care" },
+  { url: "/prevent", title: "Surgery" },
+  { url: "/prevent", title: "Additional Services" },
 ];
 export const navData = [
   { url: "/service", link: "SERVICES" },

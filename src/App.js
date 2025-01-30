@@ -37,7 +37,7 @@ import AboutNebula from './components/pages/home/AboutNebula';
       <header>
         <Sidebar isSidebarOpen={isSidebarOpen} setIsSidebarOpen={toggleSidebar} />
         <Navbar setIsSidebarOpen={toggleSidebar} />
-        {/* <HomeSection /> */}
+        <HomeSection />
         {/* <ServicesSection /> */}
         {/* <HealthCheck /> */}
          {/* <Vaccinations/> */}
@@ -55,7 +55,7 @@ import AboutNebula from './components/pages/home/AboutNebula';
         {/* <Dignostics/> */}
         {/* <Washington/> */}
         {/* <JoinPage/> */}
-        <AboutNebula/>
+        {/* <AboutNebula/> */}
         <Footer/> 
       </header>
     </div>

@@ -647,3 +647,29 @@ export const accordJoinData = [
       "At Nebula Vets, compassion is at the heart of everything we do. We not only care for our patients but also prioritize empathy and understanding towards their families. Our team is dedicated to delivering personalized care with kindness, sensitivity, and respect.",
   },
 ];
+export const meetData = [
+  {
+    name: "Dr. Daniel Hodnett-Lewis",
+    disc: "Chief Veterinary Officer",
+  },
+  {
+    name: "Dr. Jane Doe",
+    disc: "Veterinarian",
+  },
+  {
+    name: "Dr. Jane Doe",
+    disc: "Veterinarian",
+  },
+  {
+    name: "Dr. Jane Doe",
+    disc: "Veterinarian",
+  },
+  {
+    name: "Dr. Jane Doe",
+    disc: "Veterinarian",
+  },
+  {
+    name: "Dr. Jane Doe",
+    disc: "Veterinarian",
+  },
+];

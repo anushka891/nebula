@@ -7,7 +7,7 @@ function HeroAbout() {
     <div className="bg-[#494336]">
       <div className="flex-col-reverse xl:flex-row flex items-end pr-8 sm:pr-10 lg:pr-12 xl:pr-0 justify-center xl:justify-end pl-8 sm:pl-10 lg:pl-12 gap-0 md:gap-9 xl:gap-20 ml-auto mr-0">
         <div className="text-start max-w-full xl:max-w-[528px]">
-          <h2 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl text-[#D7D9DD] font-normal sm:leading-normal mb-5 avant max-w-[396px]">
+          <h2 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl text-[#D7D9DD] font-normal sm:leading-normal mb-5 avant max-w-full xl:max-w-[396px]">
             About Nebula Vets
           </h2>
           <SubChild

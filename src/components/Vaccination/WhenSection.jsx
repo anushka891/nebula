@@ -26,7 +26,7 @@ function WhenSection() {
           slidesPerView={2}
           centeredSlides={false}
           spaceBetween={20}
-          className="mySwiper"
+          className="mySwiper brown"
           breakpoints={{
             300: {
               slidesPerView: 1,
@@ -38,7 +38,7 @@ function WhenSection() {
           }}
         >
           <div className="flex flex-col gap-[22px] h-full">
-            <SwiperSlide className="!h-[490px] md:!h-[471px]">
+            <SwiperSlide className="!h-auto">
               <div className="bg-[#494336] max-w-[547px] pl-5 lg:pl-12 pr-5 pt-9 pb-14 text-start h-full mx-auto">
                 <div className="flex items-center gap-5 mb-2 lg:mb-6">
                   <div className="max-w-[42px] sm:max-w-[62px]">
@@ -47,7 +47,7 @@ function WhenSection() {
                   <Mainheading
                     maintitle={"Puppies Schedule"}
                     className={
-                      "text-linear text-2xl md:!text-3xl md:!text-[36px] xl:!text-5xl"
+                      "text-linear text-2xl md:!text-3xl md:!text-[36px] xl:!text-5xl !leading-[normal]"
                     }
                   />
                 </div>
@@ -84,53 +84,8 @@ function WhenSection() {
                 </div>
               </div>
             </SwiperSlide>
-            <SwiperSlide className="!h-[490px] md:!h-[471px]">
+            <SwiperSlide className="!h-auto">
               <div className="bg-[#494336] max-w-[547px] pl-5 lg:pl-12 pr-5 pt-9 pb-14 text-start h-full mx-auto">
-                <div className="flex items-center gap-5 mb-4 lg:mb-9">
-                  <div>
-                    <img src={logo} alt="logo" />
-                  </div>
-                  <Mainheading
-                    maintitle={"Adult Dog Schedule"}
-                    className={
-                      "text-linear !text-3xl md:!text-[36px] xl:!text-5xl"
-                    }
-                  />
-                </div>
-                <div className="pr-0 lg:pr-20 text-lg lg:text-[22px] avant font-normal leading-[127%] text-[#D7D9DD] gap-2 flex flex-col">
-                  <p className="text-lg lg:text-[22px] avant font-normal leading-[127%] text-[#D7D9DD]">
-                    Rabies: One year after the initial puppy vaccine, then every
-                    three years
-                  </p>
-                  <p>Distemper: Every three years</p>
-                  <p>Bordetella: Every year</p>
-                  <p>Leptospirosis: Every year</p>
-                  <p>Canine influenza: Every year</p>
-                  <p> Lyme disease: Every year</p>
-                </div>
-              </div>
-            </SwiperSlide>
-          </div>
-        </Swiper>
-        <Swiper
-          pagination={true}
-          modules={[Pagination]}
-          slidesPerView={2}
-          spaceBetween={20}
-          className="mySwiper"
-          breakpoints={{
-            300: {
-              slidesPerView: 1,
-              centeredSlides: true,
-            },
-            768: {
-              slidesPerView: 2,
-            },
-          }}
-        >
-          <div className="flex gap-5 gap-y-5">
-            <SwiperSlide className="!h-[490px] md:!h-[471px]">
-              <div className="bg-[#494336] max-w-[547px] pl-5 lg:pl-12 pr-5 pt-9 pb-14 text-start h-full mt-[22px] mx-auto">
                 <div className="flex items-center gap-5 mb-2 lg:mb-6">
                   <div>
                     <img src={kitt} alt="logo" />
@@ -160,7 +115,52 @@ function WhenSection() {
                 </div>
               </div>
             </SwiperSlide>
-            <SwiperSlide className="!h-[490px] md:!h-[471px]">
+          </div>
+        </Swiper>
+        <Swiper
+          pagination={true}
+          modules={[Pagination]}
+          slidesPerView={2}
+          spaceBetween={20}
+          className="mySwiper brown"
+          breakpoints={{
+            300: {
+              slidesPerView: 1,
+              centeredSlides: true,
+            },
+            768: {
+              slidesPerView: 2,
+            },
+          }}
+        >
+          <div className="flex gap-5 gap-y-5">
+            <SwiperSlide className="md:!h-auto">
+              <div className="bg-[#494336] max-w-[547px] pl-5 lg:pl-12 pr-5 pt-9 pb-14 text-start h-full mx-auto mt-[22px]">
+                <div className="flex items-center gap-5 mb-4 lg:mb-9">
+                  <div>
+                    <img src={logo} alt="logo" />
+                  </div>
+                  <Mainheading
+                    maintitle={"Adult Dog Schedule"}
+                    className={
+                      "text-linear !text-3xl md:!text-[36px] xl:!text-5xl !leading-[normal]"
+                    }
+                  />
+                </div>
+                <div className="pr-0 lg:pr-20 text-lg lg:text-[22px] avant font-normal leading-[127%] text-[#D7D9DD] gap-2 flex flex-col">
+                  <p className="text-lg lg:text-[22px] avant font-normal leading-[127%] text-[#D7D9DD]">
+                    Rabies: One year after the initial puppy vaccine, then every
+                    three years
+                  </p>
+                  <p>Distemper: Every three years</p>
+                  <p>Bordetella: Every year</p>
+                  <p>Leptospirosis: Every year</p>
+                  <p>Canine influenza: Every year</p>
+                  <p> Lyme disease: Every year</p>
+                </div>
+              </div>
+            </SwiperSlide>
+            <SwiperSlide className="!h-auto">
               <div className="bg-[#494336] max-w-[547px] pl-5 lg:pl-12 pr-5 pb-14 text-start h-full mt-[22px]">
                 <div className="flex items-center gap-5 mb-5 lg:mb-9 pt-10">
                   <div>

@@ -26,7 +26,6 @@ function OurMission() {
           <img src={footdog} alt="footdog" width={"100%"} />
         </div>
       </div>
-      ;
     </div>
   );
 }

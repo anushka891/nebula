@@ -6,28 +6,26 @@ import { dogsliderData } from "../helper/Helper";
 
 function DogsSection() {
   return (
-    <div className="bg-[#D7D9DD] pt-10 sm:pt-20 pb-0 sm:pb-10 px-8 sm:px-0">
+    <div className="bg-[#D7D9DD] pt-10 sm:pt-20 pb-0 sm:pb-10 px-8 sm:px-0 colorful">
       <Swiper
         pagination={true}
         modules={[Pagination]}
-        slidesPerView={3.4}
-        centeredSlides={true}
+        slidesPerView={3.8}
         spaceBetween={20}
+        centeredSlides={true}
         loop={true}
         breakpoints={{
           300: {
             slidesPerView: 1,
-            spaceBetween: 10,
           },
           450: {
             slidesPerView: 2,
           },
           768: {
-            slidesPerView: 3,
+            slidesPerView: 2.6,
           },
           1024: {
-            slidesPerView: 3.4,
-            spaceBetween: 20,
+            slidesPerView: 3.8,
           },
         }}
         className="mySwiper"

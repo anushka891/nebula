@@ -37,21 +37,11 @@ export const careData = [
   },
 ];
 export const navData = [
-  {
-    link: "SERVICES",
-  },
-  {
-    link: "ABOUT US",
-  },
-  {
-    link: "LOCATION",
-  },
-  {
-    link: "CAREER",
-  },
-  {
-    link: "PATIENT PORTAL",
-  },
+  { url: "/service", link: "SERVICES" },
+  { url: "/about", link: "ABOUT US" },
+  { url: "/washing", link: "LOCATION" },
+  { url: "/join", link: "CAREER" },
+  { url: "/", link: "PATIENT PORTAL" },
 ];
 export const accordianData = [
   {

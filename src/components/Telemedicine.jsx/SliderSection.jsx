@@ -39,7 +39,7 @@ function SliderSection() {
                 slidesPerView: 4,
               },
             }}
-            className="mySwiper"
+            className="mySwiper brown"
           >
             {medicineData.map((item, index) => (
               <SwiperSlide className="!h-auto">

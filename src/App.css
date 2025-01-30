@@ -37,9 +37,12 @@
   }
 }
 @media (max-width:640px) {
-  .swiper-pagination{
+  .colorful .swiper-pagination{
      bottom: 50px !important;
   }  
-  .swiper-pagination-bullet{
+ .colorful .swiper-pagination-bullet{
     background: white !important;  }
+    .black-pagination .swiper-wrapper{
+  margin-bottom: 35px !important;
+}
 }

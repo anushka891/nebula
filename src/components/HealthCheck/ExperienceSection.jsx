@@ -6,7 +6,12 @@ function ExperienceSection() {
   return (
     <>
       <div className="bg-[rgba(215,217,221,0.50);]">
-        <div className="text-start max-w-[1180px] px-8 md:px-10 lg:px-12 mx-auto py-14 md:py-20">
+        <div
+          data-aos="fade-up"
+          data-aos-anchor-placement="top-bottom"
+          data-aos-duration="3000"
+          className="text-start max-w-[1180px] px-8 md:px-10 lg:px-12 mx-auto py-14 md:py-20"
+        >
           <Subheading
             subtitle={
               "Experience Exceptional Animal Health Checks at Nebula Vets:"
@@ -20,7 +25,9 @@ function ExperienceSection() {
           />
         </div>
       </div>
-      <WeLook />
+      <div data-aos="zoom-in" data-aos-duration="2000">
+        <WeLook />
+      </div>
     </>
   );
 }

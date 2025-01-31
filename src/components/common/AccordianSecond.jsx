@@ -11,7 +11,11 @@ const AccordionItem = ({ question, answer, isActive, onClick }) => {
           onClick={onClick}
           className="w-full text-start flex justify-between items-center"
         >
-          <h2 className="text-base sm:text-xl md:text-[24px] roboto font-normal leading-[150%] text-[#494336] py-8 mr-20">
+          <h2
+            data-aos="fade-right"
+            data-aos-duration="1500"
+            className="text-base sm:text-xl md:text-[24px] roboto font-normal leading-[150%] text-[#494336] py-8 mr-20"
+          >
             {question}
           </h2>
           <span>
@@ -31,7 +35,11 @@ const AccordionItem = ({ question, answer, isActive, onClick }) => {
           </span>
         </button>
         {isActive && (
-          <div className="text-start mb-8 text-sm md:text-xl avant font-normal leading-[26px] text-[#494336]">
+          <div
+            data-aos="fade-left"
+            data-aos-duration="3000"
+            className="text-start mb-8 text-sm md:text-xl avant font-normal leading-[26px] text-[#494336]"
+          >
             {answer}
           </div>
         )}

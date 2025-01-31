@@ -1,5 +1,8 @@
 // App.js
+import React, { useEffect } from "react";
 import './App.css';
+import AOS from 'aos';
+import 'aos/dist/aos.css';  // Import AOS styles
 import HomeSection from './components/pages/home/HomeSection';
 import ServicesSection from "./components/pages/home/ServicesSection"
 import HealthCheck from './components/pages/home/HealthCheck';
@@ -21,7 +24,12 @@ import JoinPage from './components/pages/home/JoinPage';
 import AboutNebula from './components/pages/home/AboutNebula';
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import Layout from './components/layout/Layout';
- function App() {
+
+ 
+function App() {
+    useEffect(() => {
+    AOS.init({});
+  }, []);
   return (
     <div className="App">
         <BrowserRouter>

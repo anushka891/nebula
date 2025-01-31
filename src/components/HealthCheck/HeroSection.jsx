@@ -1,11 +1,16 @@
-import React from "react";
 import Button from "../common/Button";
 import hero from "./../../assests/img/png/health-hero-main.png";
+import React from "react";
+
 function HeroSection() {
   return (
-    <>
+    <div className="overflow-x-hidden">
       <div className="bg-[#494336] flex-col-reverse xl:flex-row flex items-center pr-8 sm:pr-10 lg:pr-12 xl:pr-0 justify-center xl:justify-end pl-8 sm:pl-10 lg:pl-12 gap-0 md:gap-16 min-[1300px]:gap-[100px] pb-11">
-        <div className="max-w-full xl:max-w-[665px] text-start mt-[-53px] sm:mt-0 xl:mt-[140px]">
+        <div
+          data-aos="fade-up"
+          data-aos-duration="1500"
+          className="max-w-full xl:max-w-[665px] text-start mt-[-53px] sm:mt-0 xl:mt-[140px]"
+        >
           <h2 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl text-[#D7D9DD] sm:leading-normal mb-5 avant-regular">
             Animal Health Check
           </h2>
@@ -20,11 +25,21 @@ function HeroSection() {
           </p>
           <Button btnTitle={"Book Now"} />
         </div>
-        <div className="max-w-[220px] md:max-w-[350px] lg:max-w-[450px] min-[1290px]:max-w-[528px] mt-5">
-          <img src={hero} alt="hero" width={"100%"} />
+        <div
+          data-aos="fade-up"
+          data-aos-duration="1000"
+          className="max-w-[220px] md:max-w-[350px] lg:max-w-[450px] min-[1290px]:max-w-[528px] mt-5"
+        >
+          <img
+            src={hero}
+            alt="hero"
+            width={"100%"}
+            height={"auto"}
+            className="w-full h-auto"
+          />
         </div>
       </div>
-    </>
+    </div>
   );
 }
 

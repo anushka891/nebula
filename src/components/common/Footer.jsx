@@ -6,9 +6,15 @@ import {
   footImgData,
   serviceData,
 } from "../helper/Helper";
+import { Link } from "react-router-dom";
 function Footer() {
   return (
-    <div className="bg-[#494336]">
+    <div
+      data-aos="fade-down"
+      data-aos-easing="linear"
+      data-aos-duration="1200"
+      className="bg-[#494336]"
+    >
       <div className="max-w-[1340px] mx-auto px-4 min-[350px]:px-8 md:px-10 lg:px-12 border-t-[1px] border-t-[#D8DADC] pb-[100px] sm:pb-12 pt-[60px]">
         <div className="flex-wrap lg:flex-nowrap flex justify-between gap-10 sm:gap-14">
           <div className="w-full lg:w-[25%]">
@@ -24,8 +30,8 @@ function Footer() {
               {footImgData.map((item, index) => (
                 <a
                   key={index}
-                  className="hover:translate-y-2 duration-300"
-                  href="#"
+                  className="hover:translate-y-2 duration-300 hover:shadow-lg hover:shadow-[#8FD9D9] rounded-full"
+                  href={item.url}
                 >
                   {item.icon}
                 </a>
@@ -38,13 +44,15 @@ function Footer() {
                 Services
               </p>
               {serviceData.map((item, index) => (
-                <a
-                  className="text-sm sm:text-base md:text-[18px] font-normal avant text-[#D7D9DD] leading-[144%] underline mb-2 hover:text-[#8FD9D9] duration-300"
+                <Link
+                  to={item.url}
+                  className="text-sm sm:text-base md:text-[18px] font-normal
+                  avant text-[#D7D9DD] leading-[144%] underline mb-2
+                  hover:text-[#8FD9D9] duration-300"
                   key={index}
-                  href="#"
                 >
                   {item.link}
-                </a>
+                </Link>
               ))}
             </div>
             <div className="flex-col flex text-start w-full min-[370px]:w-auto">
@@ -52,13 +60,15 @@ function Footer() {
                 Company
               </p>
               {companyData.map((item, index) => (
-                <a
-                  className="text-sm sm:text-base md:text-[18px] font-normal avant text-[#D7D9DD] leading-[144%] underline mb-2 hover:text-[#8FD9D9] duration-300"
+                <Link
+                  to={item.url}
+                  className="text-sm sm:text-base md:text-[18px] font-normal
+                  avant text-[#D7D9DD] leading-[144%] underline mb-2
+                  hover:text-[#8FD9D9] duration-300"
                   key={index}
-                  href="#"
                 >
                   {item.link}
-                </a>
+                </Link>
               ))}
             </div>
             <div className="flex-col flex text-start">
@@ -66,13 +76,15 @@ function Footer() {
                 Contact Us
               </p>
               {contactData.map((item, index) => (
-                <a
-                  className="text-sm sm:text-base md:text-[18px] font-normal avant text-[#D7D9DD] leading-[144%] underline mb-2 hover:text-[#8FD9D9] duration-300"
+                <Link
+                  to={item.url}
+                  className="text-sm sm:text-base md:text-[18px] font-normal
+                  avant text-[#D7D9DD] leading-[144%] underline mb-2
+                  hover:text-[#8FD9D9] duration-300"
                   key={index}
-                  href="#"
                 >
                   {item.link}
-                </a>
+                </Link>
               ))}
             </div>
           </div>

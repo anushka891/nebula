@@ -22,10 +22,10 @@ export const dogsliderData = [
   },
 ];
 export const careData = [
-  { url: "/prevent", title: "Preventive Care" },
-  { url: "/prevent", title: "Sick Patient Care" },
-  { url: "/prevent", title: "Surgery" },
-  { url: "/prevent", title: "Additional Services" },
+  { url: "#PreventiveCare", title: "Preventive Care" },
+  { url: "#PatientCare", title: "Sick Patient Care" },
+  { url: "#Surgery", title: "Surgery" },
+  { url: "#AdditionalServices", title: "Additional Services" },
 ];
 export const navData = [
   { url: "/service", link: "SERVICES" },
@@ -82,23 +82,17 @@ export const footImgData = [
 ];
 export const serviceData = [
   {
+    url: "service",
     link: "Preventive Care",
   },
-  {
-    link: "Sick Patient Care",
-  },
-  {
-    link: "Surgery",
-  },
-  {
-    link: "Additional Services",
-  },
+  { url: "service", link: "Sick Patient Care" },
+  { url: "service", link: "Surgery" },
+  { url: "service", link: "Additional Services" },
 ];
 export const companyData = [
+  { url: "about", link: "About us" },
   {
-    link: "About us",
-  },
-  {
+    url: "join",
     link: "Carreers",
   },
 ];

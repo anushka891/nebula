@@ -18,7 +18,10 @@ import sur from "./../../assests/img/png/slider-img-3.png";
 import add from "./../../assests/img/png/slider-img-4.png";
 export default function App() {
   return (
-    <div className="pl-8 pr-0 sm:px-10 xl:px-[70px] black-pagination">
+    <div
+      id="preventive"
+      className="pl-8 pr-0 sm:px-10 xl:px-[70px] black-pagination"
+    >
       <Swiper
         pagination={true}
         modules={[Pagination]}
@@ -62,7 +65,10 @@ export default function App() {
           </div>
         </SwiperSlide>
         <SwiperSlide className="!h-auto">
-          <div className="bg-[#494336] p-6 pr-3 text-start pb-[75px] w-full h-full">
+          <div
+            id="sick"
+            className="bg-[#494336] p-6 pr-3 text-start pb-[75px] w-full h-full"
+          >
             <img className="mb-3 sm:mb-10 md:mb-12" src={sick} alt="img" />
             <Subheading
               subtitle={"Sick Patient Care"}
@@ -88,7 +94,10 @@ export default function App() {
           </div>
         </SwiperSlide>
         <SwiperSlide className="!h-auto">
-          <div className="bg-[#494336] p-6 text-start pb-[75px] w-full h-full">
+          <div
+            id="sur"
+            className="bg-[#494336] p-6 text-start pb-[75px] w-full h-full"
+          >
             <img className="mb-3 sm:mb-10 md:mb-12" src={sur} alt="img" />
             <Subheading
               subtitle={"Surgery"}
@@ -105,7 +114,10 @@ export default function App() {
           </div>
         </SwiperSlide>
         <SwiperSlide className="!h-auto">
-          <div className="bg-[#494336] p-6 text-start pb-[75px] w-full h-full">
+          <div
+            id="add"
+            className="bg-[#494336] p-6 text-start pb-[75px] w-full h-full"
+          >
             <img className="mb-3 sm:mb-10 md:mb-12" src={add} alt="img" />
             <Subheading
               subtitle={"Additional Services"}

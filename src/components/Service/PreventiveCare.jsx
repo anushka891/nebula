@@ -17,7 +17,10 @@ import Subheading from "../common/Subheading";
 function PreventiveCare() {
   return (
     <div>
-      <div className="flex-wrap lg:flex-nowrap flex gap-4 xl:gap-14 justify-center lg:justify-end items-start">
+      <div
+        id="PreventiveCare"
+        className="flex-wrap lg:flex-nowrap flex gap-4 xl:gap-14 justify-center lg:justify-end items-start"
+      >
         <div className="max-w-full lg:max-w-[481px] text-start w-full lg:w-[40%] pt-[120px] sm:pt-20  px-8 sm:px-10 md:px-14 lg:px-4 min-[1370px]:px-0 pb-14 lg:pb-0">
           <div>
             <div className="max-w-[218px] sm:max-w-[320px] md:max-w-[376px] mb-1">
@@ -61,7 +64,10 @@ function PreventiveCare() {
           </div>
         </div>
       </div>
-      <div className="flex-wrap lg:flex-nowrap flex gap-4 xl:gap-14 justify-center lg:justify-end items-start">
+      <div
+        id="PatientCare"
+        className="flex-wrap lg:flex-nowrap flex gap-4 xl:gap-14 justify-center lg:justify-end items-start"
+      >
         <div className="max-w-full lg:max-w-[481px] text-start w-full lg:w-[40%] pt-[100px] sm:pt-20 px-8 min-[1370px]:px-0 mb-14 lg:mb-0">
           <div>
             <div className="max-w-[218px] sm:max-w-[320px] md:max-w-[376px] mb-2 sm:mb-10 lg:mb-20">
@@ -106,7 +112,10 @@ function PreventiveCare() {
           </div>
         </div>
       </div>
-      <div className="flex-wrap lg:flex-nowrap flex gap-14 justify-center lg:justify-end">
+      <div
+        id="Surgery"
+        className="flex-wrap lg:flex-nowrap flex gap-14 justify-center lg:justify-end"
+      >
         <div className="max-w-full lg:max-w-[481px] text-start w-full lg:w-[40%] pl-8 min-[1370px]:pl-0">
           <div>
             <div className="max-w-[218px] sm:max-w-[320px] md:max-w-[376px] mb-2 sm:mb-10 lg:mb-20 mt-[120px] sm:mt-20 lg:mt-0">
@@ -151,7 +160,10 @@ function PreventiveCare() {
           </div>
         </div>
       </div>
-      <div className="flex-wrap lg:flex-nowrap flex gap-14 justify-center lg:justify-end items-start">
+      <div
+        id="AdditionalServices"
+        className="flex-wrap lg:flex-nowrap flex gap-14 justify-center lg:justify-end items-start"
+      >
         <div className="max-w-full lg:max-w-[481px] text-start w-full lg:w-[40%] pl-8 min-[1370px]:pl-0">
           <div>
             <div className="max-w-[218px] sm:max-w-[320px] md:max-w-[376px] mb-2 sm:mb-11 mt-[100px] sm:mt-[160px]">

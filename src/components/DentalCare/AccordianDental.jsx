@@ -46,17 +46,19 @@ const Accordion = () => {
     setActiveIndex(activeIndex === index ? null : index);
   };
   return (
-    <div className="mb-14 md:mb-20">
-      <div className="accordion w-full">
-        {accordDentalData.map((item, index) => (
-          <AccordionItem
-            key={index}
-            question={item.question}
-            answer={item.answer}
-            isActive={activeIndex === index}
-            onClick={() => handleAccordionToggle(index)}
-          />
-        ))}
+    <div className="overflow-x-hidden">
+      <div data-aos="zoom-out-left" className="mb-14 md:mb-20">
+        <div className="accordion w-full">
+          {accordDentalData.map((item, index) => (
+            <AccordionItem
+              key={index}
+              question={item.question}
+              answer={item.answer}
+              isActive={activeIndex === index}
+              onClick={() => handleAccordionToggle(index)}
+            />
+          ))}
+        </div>
       </div>
     </div>
   );

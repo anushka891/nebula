@@ -4,9 +4,12 @@ import SubChild from "../common/SubChild";
 import WeLook from "../HealthCheck/WeLook";
 function Experience() {
   return (
-    <div>
+    <div className="overflow-x-hidden">
       <div className="bg-[rgba(215,217,221,0.50);]">
-        <div className="text-start max-w-[1180px] px-8 md:px-10 lg:px-12 mx-auto py-14 md:py-20">
+        <div
+          data-aos="zoom-in"
+          className="text-start max-w-[1180px] px-8 md:px-10 lg:px-12 mx-auto py-14 md:py-20"
+        >
           <Subheading
             subtitle={"Experience Exceptional Dental Care at Nebula Vets:"}
             className={"pb-9"}
@@ -18,7 +21,9 @@ function Experience() {
           />
         </div>
       </div>
-      <WeLook />
+      <div data-aos="flip-down">
+        <WeLook />
+      </div>
     </div>
   );
 }

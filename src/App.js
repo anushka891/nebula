@@ -1,7 +1,5 @@
 // App.js
 import './App.css';
-import Navbar from './components/common/Navbar';
-import Sidebar from './components/common/Sidebar';
 import HomeSection from './components/pages/home/HomeSection';
 import ServicesSection from "./components/pages/home/ServicesSection"
 import HealthCheck from './components/pages/home/HealthCheck';

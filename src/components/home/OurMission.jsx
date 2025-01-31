@@ -19,7 +19,7 @@ function OurMission() {
               }
               childClass={"mb-10 text-[#D7D9DD]"}
             />
-            <Button btnTitle={"LEARN MORE"} />
+            <Button btnTitle={"BOOK NOW"} />
           </div>
         </div>
         <div className="max-w-[584px]">

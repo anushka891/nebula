@@ -46,15 +46,15 @@ function PreventiveCare() {
                 key={index}
                 className="text-start border-b-[1px] border-black pt-8"
               >
-                <h2 className="text-[28px] font-normal text-[#494336] leading-normal roboto mb-6 sm:mb-8">
+                <h2 className="text-base sm:text-xl md:text-[28px] font-normal text-[#494336] leading-normal roboto mb-6 sm:mb-8">
                   {item.title}
                 </h2>
-                <p className="text-[#494336] text-sm sm:text-lg md:text-xl text-normal leading-[26px] avant mb-10">
+                <p className="text-[#494336] text-sm sm:text-lg md:text-xl text-normal leading-[26px] avant mb-8">
                   {item.disc}
                 </p>
                 <Button
                   btnTitle={"LEARN MORE"}
-                  className={"text-[#494336] mb-14"}
+                  className={"text-[#494336] mb-12 sm:mb-14"}
                 />
               </div>
             ))}
@@ -62,7 +62,7 @@ function PreventiveCare() {
         </div>
       </div>
       <div className="flex-wrap lg:flex-nowrap flex gap-4 xl:gap-14 justify-center lg:justify-end items-start">
-        <div className="max-w-full lg:max-w-[481px] text-start w-full lg:w-[40%] pt-[120px] sm:pt-20 px-8 min-[1370px]:px-0 mb-14 lg:mb-0">
+        <div className="max-w-full lg:max-w-[481px] text-start w-full lg:w-[40%] pt-[100px] sm:pt-20 px-8 min-[1370px]:px-0 mb-14 lg:mb-0">
           <div>
             <div className="max-w-[218px] sm:max-w-[320px] md:max-w-[376px] mb-2 sm:mb-10 lg:mb-20">
               <img src={bandage} alt="img" />
@@ -76,7 +76,7 @@ function PreventiveCare() {
               title={
                 "At Nebula Vets, we are fully equipped with advanced diagnostic tools and a wide range of treatment options to address any health issue your pet may be facing. Our commitment to comprehensive care means that we have the expertise and resources to provide accurate diagnoses and effective treatments."
               }
-              childClass={"mb-0 sm:mb-6 md:mb-10"}
+              childClass={"mb-0 sm:mb-6 md:mb-8"}
             />
             <Button
               btnTitle={"BOOK NOW"}
@@ -91,15 +91,15 @@ function PreventiveCare() {
                 key={index}
                 className="text-start border-b-[1px] border-black pt-8"
               >
-                <h2 className="text-[28px] font-normal text-[#494336] leading-normal roboto mb-6 sm:mb-8">
+                <h2 className="text-base sm:text-xl md:text-[28px] font-normal text-[#494336] leading-normal roboto mb-6 sm:mb-8">
                   {item.title}
                 </h2>
-                <p className="text-[#494336] text-sm sm:text-lg md:text-xl text-normal leading-[26px] avant mb-10">
+                <p className="text-[#494336] text-sm sm:text-lg md:text-xl text-normal leading-[26px] avant mb-8">
                   {item.disc}
                 </p>
                 <Button
                   btnTitle={"LEARN MORE"}
-                  className={"text-[#494336] mb-14"}
+                  className={"text-[#494336] mb-12 sm:mb-14"}
                 />
               </div>
             ))}
@@ -109,7 +109,7 @@ function PreventiveCare() {
       <div className="flex-wrap lg:flex-nowrap flex gap-14 justify-center lg:justify-end">
         <div className="max-w-full lg:max-w-[481px] text-start w-full lg:w-[40%] pl-8 min-[1370px]:pl-0">
           <div>
-            <div className="max-w-[218px] sm:max-w-[320px] md:max-w-[376px] mb-2 sm:mb-10 lg:mb-20 mt-[160px] sm:mt-20 lg:mt-0">
+            <div className="max-w-[218px] sm:max-w-[320px] md:max-w-[376px] mb-2 sm:mb-10 lg:mb-20 mt-[120px] sm:mt-20 lg:mt-0">
               <img src={surgery} alt="img" />
             </div>
             <Mainheading maintitle={"Surgery"} />
@@ -130,21 +130,21 @@ function PreventiveCare() {
           </div>
         </div>
         <div className="bg-[rgba(215,217,221,0.50);] w-full lg:w-[55%] pl-8 sm:pl-10 md:pl-16 min-[1400px]:pl-[111px] pr-8 sm:pr-10 min-[1400px]:pr-14 pt-6 lg:pt-12 pb-14 lg:pb-0">
-          <div className="max-w-[800px] pt-[60px]">
+          <div className="max-w-[800px] pt-7 md:pt-[60px]">
             {checkThirdData.map((item, index) => (
               <div
                 key={index}
-                className="text-start border-b-[1px] border-black pt-8"
+                className="text-start border-b-[1px] border-black pt-0 md:pt-8"
               >
-                <h2 className="text-[28px] font-normal text-[#494336] leading-normal roboto mb-6 sm:mb-8">
+                <h2 className="text-base sm:text-xl md:text-[28px] font-normal text-[#494336] leading-normal roboto mb-6 sm:mb-8">
                   {item.title}
                 </h2>
-                <p className="text-[#494336] text-sm sm:text-lg md:text-xl text-normal leading-[26px] avant mb-10">
+                <p className="text-[#494336] text-sm sm:text-lg md:text-xl text-normal leading-[26px] avant mb-8">
                   {item.disc}
                 </p>
                 <Button
                   btnTitle={"LEARN MORE"}
-                  className={"text-[#494336] mb-14"}
+                  className={"text-[#494336] mb-12 sm:mb-14"}
                 />
               </div>
             ))}
@@ -154,7 +154,7 @@ function PreventiveCare() {
       <div className="flex-wrap lg:flex-nowrap flex gap-14 justify-center lg:justify-end items-start">
         <div className="max-w-full lg:max-w-[481px] text-start w-full lg:w-[40%] pl-8 min-[1370px]:pl-0">
           <div>
-            <div className="max-w-[218px] sm:max-w-[320px] md:max-w-[376px] mb-2 sm:mb-11 mt-[160px]">
+            <div className="max-w-[218px] sm:max-w-[320px] md:max-w-[376px] mb-2 sm:mb-11 mt-[100px] sm:mt-[160px]">
               <img src={add} alt="img" />
             </div>
             <Mainheading maintitle={"Additional Services"} />
@@ -181,15 +181,15 @@ function PreventiveCare() {
                 key={index}
                 className="text-start border-b-[1px] border-black pt-8"
               >
-                <h2 className="text-[28px] font-normal text-[#494336] leading-normal roboto mb-6 sm:mb-8">
+                <h2 className="text-base sm:text-xl md:text-[28px] font-normal text-[#494336] leading-normal roboto mb-6 sm:mb-8">
                   {item.title}
                 </h2>
-                <p className="text-[#494336] text-sm sm:text-lg md:text-xl text-normal leading-[26px] avant mb-10">
+                <p className="text-[#494336] text-sm sm:text-lg md:text-xl text-normal leading-[26px] avant mb-8">
                   {item.disc}
                 </p>
                 <Button
                   btnTitle={"LEARN MORE"}
-                  className={"text-[#494336] mb-14"}
+                  className={"text-[#494336] mb-12 sm:mb-14"}
                 />
               </div>
             ))}

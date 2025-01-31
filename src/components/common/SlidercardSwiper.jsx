@@ -41,7 +41,7 @@ export default function App() {
             slidesPerView: 4,
           },
         }}
-        className="mySwiper mb-[100px] xl:mb-[140px]"
+        className="mySwiper mb-[60px] xl:mb-[140px]"
       >
         <SwiperSlide className="!h-auto">
           <div className="bg-[#494336] p-6 text-start pb-[75px] w-full h-full">
@@ -62,7 +62,7 @@ export default function App() {
           </div>
         </SwiperSlide>
         <SwiperSlide className="!h-auto">
-          <div className="bg-[#494336] p-6 text-start pb-[75px] w-full h-full">
+          <div className="bg-[#494336] p-6 pr-3 text-start pb-[75px] w-full h-full">
             <img className="mb-3 sm:mb-10 md:mb-12" src={sick} alt="img" />
             <Subheading
               subtitle={"Sick Patient Care"}

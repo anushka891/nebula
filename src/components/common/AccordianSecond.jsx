@@ -6,7 +6,7 @@ import plus from "./../../assests/img/png/plus-icon.png";
 const AccordionItem = ({ question, answer, isActive, onClick }) => {
   return (
     <div className="max-w-[1180px] px-8 md:px-10 lg:px-12 mx-auto w-full">
-      <div className="accordion-item border-b-2 border-b-[linear-gradient(90deg,#FFA280_0%,#8FD9CB_100%)]">
+      <div className="accordion-item linear-border">
         <button
           onClick={onClick}
           className="w-full text-start flex justify-between items-center"

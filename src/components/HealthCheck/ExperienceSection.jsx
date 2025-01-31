@@ -1,6 +1,7 @@
 import React from "react";
 import Subheading from "../common/Subheading";
 import SubChild from "../common/SubChild";
+import WeLook from "./WeLook";
 function ExperienceSection() {
   return (
     <>
@@ -19,6 +20,7 @@ function ExperienceSection() {
           />
         </div>
       </div>
+      <WeLook />
     </>
   );
 }

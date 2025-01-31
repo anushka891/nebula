@@ -1,5 +1,5 @@
 import React, { useRef, useState } from "react";
-import foot from "./../../assests/img/png/footer-service-position.png";
+import foot from "./../../assests/img/png/we-look-wave.png";
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import "swiper/css/pagination";
@@ -128,8 +128,8 @@ function WhenSection() {
             },
           }}
         >
-          <div className="flex gap-5 gap-y-5">
-            <SwiperSlide className="md:!h-auto">
+          <div className="flex gap-5 gap-y-5 h-full">
+            <SwiperSlide className="!h-auto">
               <div className="bg-[#494336] max-w-[547px] pl-5 lg:pl-12 pr-5 pt-9 pb-14 text-start h-full mx-auto mt-14 md:mt-[22px]">
                 <div className="flex items-center gap-5 mb-4 lg:mb-9">
                   <div>
@@ -156,7 +156,7 @@ function WhenSection() {
               </div>
             </SwiperSlide>
             <SwiperSlide className="!h-auto">
-              <div className="bg-[#494336] max-w-[547px] pl-5 lg:pl-12 pr-5 pb-14 text-start h-full mt-[22px]">
+              <div className="bg-[#494336] max-w-[547px] pl-5 lg:pl-12 pr-5 pb-14 text-start h-full  mt-14 md:mt-[22px]">
                 <div className="flex items-center gap-5 mb-5 lg:mb-9 pt-10">
                   <div>
                     <img src={kitt} alt="logo" />
@@ -194,7 +194,7 @@ function WhenSection() {
               }
               childClass={"text-[#D7D9DD] mb-11"}
             />
-            <Button btnTitle={"BOOK NOW"} className={"text-[#494336]"} />
+            <Button btnTitle={"BOOK NOW"} className={"text-[#494336] mb-6"} />
           </div>
         </div>
         <div className="flex justify-end mt-[-100px] sm:mt-[-350px] ml-auto mr-0 max-w-[603px]">

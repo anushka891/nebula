@@ -1,0 +1,8 @@
+@font-face {
+    font-family: "Avantt";
+    src: url("./assests/font-family/avantt-font/AvanttTRIAL-Regular-BF6721a86b1a848.otf");
+}
+
+.avant-regular {
+    font-family: "Avantt";
+}

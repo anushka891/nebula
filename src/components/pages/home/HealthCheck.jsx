@@ -4,7 +4,6 @@ import CheckExam from "../../HealthCheck/CheckExam";
 import WhySection from "../../HealthCheck/WhySection";
 import ExperienceSection from "../../HealthCheck/ExperienceSection";
 import AccordianSecond from "./../../common/AccordianSecond";
-import Footer from "../../common/Footer";
 function HealthCheck() {
   return (
     <div>
@@ -13,7 +12,6 @@ function HealthCheck() {
       <WhySection />
       <AccordianSecond />
       <ExperienceSection />
-      <Footer />
     </div>
   );
 }

@@ -15,7 +15,7 @@ function AboutSection() {
           alt="position"
         />
       </div>
-      <div className="max-w-[1340px] mx-auto px-4 min-[350px]:px-8 md:px-10 lg:px-12 flex-wrap xl:flex-nowrap flex gap-[60px] items-center py-20 justify-center xl:justify-between">
+      <div className="max-w-[1340px] mx-auto px-4 min-[350px]:px-8 md:px-10 lg:px-12 flex-wrap xl:flex-nowrap flex gap-[60px] items-center pb-[60px] pt-8 md:py-20 justify-center xl:justify-between">
         <div className="max-w-[591px]">
           <img src={dog} alt="dog" width={"100%"} />
         </div>

@@ -21,10 +21,9 @@ function Navbar() {
   const toggleSidebar = () => {
     setIsSidebarOpen(!isSidebarOpen);
   };
-
   return (
     <div className="bg-[#494336]">
-      <div className="max-w-[1340px] mx-auto px-4 min-[350px]:px-8 md:px-10 lg:px-12 pt-2 sm:pt-3 pb-2 sm:pb-4">
+      <div className="max-w-[1340px] mx-auto px-4 min-[350px]:px-8 md:px-10 lg:px-12 py-6 sm:py-4">
         <div className="flex items-center justify-between">
           {/* Left section */}
           <a href="/">
@@ -50,7 +49,7 @@ function Navbar() {
           <div>
             <button className="flex xl:hidden" onClick={toggleSidebar}>
               <img
-                className="max-w-[30px] md:max-w-[40px] fill-[#D8DADC]"
+                className="max-w-[68px] fill-[#D8DADC]"
                 src={menu}
                 alt="menu"
               />

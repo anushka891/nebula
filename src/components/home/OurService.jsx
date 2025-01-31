@@ -14,7 +14,7 @@ function OurService() {
         title={
           "We are proud to offer a comprehensive range of exceptional clinical services to cater to all your pet's needs. From routine wellness health checks to prompt and efficient urgent care, our team is here to provide the highest level of support and assistance. Count on us to be there for you and your beloved companion every step of the way."
         }
-        childClass={"mb-10"}
+        childClass={"mb-10 leading-[157%] sm:leading-[26px]"}
       />
       <Button btnTitle={"LEARN MORE"} />
     </div>

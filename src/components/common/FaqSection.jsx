@@ -5,12 +5,12 @@ import { accordata, accordianData } from "../helper/Helper";
 import Mainheading from "./Mainheading";
 
 const AccordionItem = ({ item, index, activeIndex, toggleAccordion }) => (
-  <div key={index} className="border-b border-b-[1px]">
+  <div key={index} className="linear-border">
     <button
       onClick={() => toggleAccordion(index)}
       className="w-full text-left focus:outline-none flex items-center justify-between"
     >
-      <h2 className="text-[#D7D9DD] text-base sm:text-xl lg:text-2xl font-normal leading-[150%] roboto p-4 lg:p-8">
+      <h2 className="text-[#D7D9DD] text-base sm:text-xl lg:text-2xl font-normal leading-[175%] sm:leading-[150%] roboto py-6 lg:py-8 pr-6 sm:pr-8">
         {item.question}
       </h2>
       <span className="text-xl">

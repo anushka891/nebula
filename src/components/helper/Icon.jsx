@@ -1,6 +1,7 @@
 export const FbIcon = () => {
   return (
     <svg
+      className="max-w-[37px] sm:max-w-[49px]"
       xmlns="http://www.w3.org/2000/svg"
       width="50"
       height="51"
@@ -30,6 +31,7 @@ export const FbIcon = () => {
 export const LinkIcon = () => {
   return (
     <svg
+      className="max-w-[37px] sm:max-w-[49px]"
       xmlns="http://www.w3.org/2000/svg"
       width="50"
       height="51"
@@ -59,6 +61,7 @@ export const LinkIcon = () => {
 export const InstaIcon = () => {
   return (
     <svg
+      className="max-w-[37px] sm:max-w-[49px]"
       xmlns="http://www.w3.org/2000/svg"
       width="50"
       height="51"

@@ -4,7 +4,10 @@ import SubChild from "../common/SubChild";
 import main from "./../../assests/img/png/community-main.png";
 function Community() {
   return (
-    <div className="flex-wrap lg:flex-nowrap flex py-[60px] md:py-20 gap-14 lg:gap-10 xl:gap-[60px] px-8 md:px-10 xl:px-[70px] items-start justify-start">
+    <div
+      data-aos="fade-up"
+      className="flex-wrap lg:flex-nowrap flex py-[60px] md:py-20 gap-14 lg:gap-10 xl:gap-[60px] px-8 md:px-10 xl:px-[70px] items-start justify-start"
+    >
       <div className="max-w-[600px] mx-auto lg:ml-0 lg:mr-0">
         <img src={main} alt="main" width={"100%"} />
       </div>

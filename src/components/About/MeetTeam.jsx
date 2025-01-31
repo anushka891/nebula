@@ -14,7 +14,11 @@ function MeetTeam() {
             className="text-center max-w-[113px] sm:max-w-[216px]"
             key={index}
           >
-            <div className="max-w-[98px] sm:max-w-[120px] md:max-w-[207px]">
+            <div
+              data-aos="zoom-out"
+              data-aos-duration="1000"
+              className="max-w-[98px] sm:max-w-[120px] md:max-w-[207px]"
+            >
               <img src={circle} alt="circle" width={"100%"} />
             </div>
             <h2 className="text-[#D7D9DD] text-sm sm:text-base md:text-lg xl:text-xl avant leading-[130%] font-normal mt-3 sm:mt-5 md:mt-10">

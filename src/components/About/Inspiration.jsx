@@ -5,7 +5,11 @@ import SubChild from "../common/SubChild";
 function Inspiration() {
   return (
     <div className="flex-wrap lg:flex-nowrap flex py-[60px] md:py-20 gap-14 lg:gap-10 xl:gap-[60px]  px-8 md:px-10 xl:px-[70px] items-start justify-start">
-      <div className="max-w-[600px] mx-auto lg:ml-0 lg:mr-0">
+      <div
+        data-aos="fade-right"
+        data-aos-duration="1500"
+        className="max-w-[600px] mx-auto lg:ml-0 lg:mr-0"
+      >
         <img src={main} alt="main" width={"100%"} />
       </div>
       <div className="max-w-full lg:max-w-[547px] text-start flex flex-col gap-y-4 min-[1100px]:gap-y-7 xl:gap-y-8">

@@ -1,11 +1,7 @@
 import React, { useRef, useState } from "react";
-// Import Swiper React components
 import { Swiper, SwiperSlide } from "swiper/react";
-
-// Import Swiper styles
 import "swiper/css";
 import "swiper/css/pagination";
-// import required modules
 import { Pagination } from "swiper/modules";
 import dog1 from "./../../assests/img/png/join-slider-img-1.png";
 import dog2 from "./../../assests/img/png/join-slider-img-2.png";

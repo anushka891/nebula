@@ -39,14 +39,12 @@ const AccordionItem = ({ question, answer, isActive, onClick }) => {
     </div>
   );
 };
-
 const Accordion = () => {
   const [activeIndex, setActiveIndex] = useState(null);
 
   const handleAccordionToggle = (index) => {
     setActiveIndex(activeIndex === index ? null : index);
   };
-
   return (
     <div className="relative">
       <div className="absolute hidden md:flex bottom-[-80px]">

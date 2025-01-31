@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { accordData, accordSecondData } from "../helper/Helper";
+import { accordSecondData } from "../helper/Helper";
 import minus from "./../../assests/img/png/minus-icon-1.png";
 import plus from "./../../assests/img/png/plus-icon.png";
 
@@ -39,14 +39,11 @@ const AccordionSecondItem = ({ question, answer, isActive, onClick }) => {
     </div>
   );
 };
-
 const Accordion = () => {
   const [activeIndex, setActiveIndex] = useState(null);
-
   const handleAccordionToggle = (index) => {
     setActiveIndex(activeIndex === index ? null : index);
   };
-
   return (
     <div className="pb-14 md:pb-20 pt-6 md:pt-12">
       <div className="accordion w-full">

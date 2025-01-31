@@ -1,8 +1,6 @@
 import React from "react";
 import Subheading from "../common/Subheading";
 import SubChild from "../common/SubChild";
-import Button from "../common/Button";
-import foot from "./../../assests/img/png/footer-service-position.png";
 import WeLook from "../HealthCheck/WeLook";
 function Experience() {
   return (

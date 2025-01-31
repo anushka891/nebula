@@ -25,7 +25,6 @@ function AboutMedecine() {
           }
           textclass={"mb-6"}
         />
-
         <TextLG
           title={
             "This immediate access to professional veterinary advice can be particularly valuable in situations where you're unsure if a symptom or behavior is concerning enough to warrant a visit to the clinic. It can save you time and unnecessary stress by providing clarity and peace  of mind."

@@ -1,5 +1,4 @@
 import React from "react";
-// Import Swiper React components
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Pagination } from "swiper/modules";
 import { dogsliderData } from "../helper/Helper";

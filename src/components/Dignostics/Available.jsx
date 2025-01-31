@@ -1,6 +1,5 @@
 import React from "react";
 import SubChild from "../common/SubChild";
-import Subheading from "../common/Subheading";
 import Mainheading from "../common/Mainheading";
 
 function Available() {

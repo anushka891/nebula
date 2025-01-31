@@ -1,12 +1,7 @@
 import React, { useRef, useState } from "react";
-// Import Swiper React components
 import { Swiper, SwiperSlide } from "swiper/react";
-
-import SliderMedicine from "../common/SliderMedicine";
 import "swiper/css";
 import "swiper/css/pagination";
-
-// import required modules
 import { Pagination } from "swiper/modules";
 import { medicineData } from "../helper/Helper";
 import Button from "../common/Button";

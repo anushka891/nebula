@@ -1,6 +1,5 @@
 import React from "react";
 import Subheading from "../common/Subheading";
-import SubChild from "../common/SubChild";
 import Button from "../common/Button";
 import foot from "./../../assests/img/png/emergency-footer-wave.png";
 function WeLook() {
@@ -12,7 +11,6 @@ function WeLook() {
             subtitle={"We look forward to seeing you and your pet soon!"}
             className={"text-[#D7D9DD] mb-8"}
           />
-
           <Button btnTitle={"BOOK NOW"} className={"text-[#494336]"} />
         </div>
       </div>

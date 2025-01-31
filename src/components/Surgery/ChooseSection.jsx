@@ -1,5 +1,4 @@
 import React from "react";
-import WeLook from "../Emergency/WeLook";
 import SubChild from "../common/SubChild";
 import Subheading from "../common/Subheading";
 import Button from "../common/Button";

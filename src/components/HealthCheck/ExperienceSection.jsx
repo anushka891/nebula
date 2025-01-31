@@ -1,8 +1,6 @@
 import React from "react";
 import Subheading from "../common/Subheading";
 import SubChild from "../common/SubChild";
-import foot from "./../../assests/img/png/footer-service-position.png";
-import Button from "./../common/Button";
 function ExperienceSection() {
   return (
     <>

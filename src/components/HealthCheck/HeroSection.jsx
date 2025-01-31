@@ -4,7 +4,7 @@ import hero from "./../../assests/img/png/health-hero-main.png";
 function HeroSection() {
   return (
     <>
-      <div className="bg-[#494336] flex-col-reverse xl:flex-row flex items-center pr-8 sm:pr-10 lg:pr-12 xl:pr-0   justify-center xl:justify-end pl-8 sm:pl-10 lg:pl-12 gap-0 md:gap-16 min-[1300px]:gap-[100px] pb-11">
+      <div className="bg-[#494336] flex-col-reverse xl:flex-row flex items-center pr-8 sm:pr-10 lg:pr-12 xl:pr-0 justify-center xl:justify-end pl-8 sm:pl-10 lg:pl-12 gap-0 md:gap-16 min-[1300px]:gap-[100px] pb-11">
         <div className="max-w-full xl:max-w-[661px] text-start mt-[-53px] sm:mt-0 xl:mt-[140px]">
           <h2 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl text-[#D7D9DD] font-normal sm:leading-normal mb-5 avant">
             Animal Health Check

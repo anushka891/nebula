@@ -1,5 +1,4 @@
 import React from "react";
-import TextLG from "../common/TextLG";
 import wave from "./../../assests/img/png/medicine-wave.png";
 import Mainheading from "../common/Mainheading";
 import SubChild from "../common/SubChild";

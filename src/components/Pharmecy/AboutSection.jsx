@@ -14,7 +14,6 @@ function AboutSection() {
             }
             textclass={"mb-6"}
           />
-
           <TextLG
             title={
               "However, if a specific medication is not readily available in our on-site pharmacy, we have a solution. We work closely with a trusted compounding pharmacy that specializes in creating customized medications. This allows us to quickly obtain or create the specific medication your pet needs. Once the medication is compounded, we can arrange for it to be delivered to you, ensuring that you have it in a timely manner."

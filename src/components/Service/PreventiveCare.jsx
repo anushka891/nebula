@@ -18,10 +18,7 @@ function PreventiveCare() {
   return (
     <div>
       <div className="flex-wrap lg:flex-nowrap flex gap-4 xl:gap-14 justify-center lg:justify-end items-start">
-        <div
-          id="prevent"
-          className="max-w-full lg:max-w-[481px] text-start w-full lg:w-[40%] pt-[120px] sm:pt-20  px-8 sm:px-10 md:px-14 lg:px-4 min-[1370px]:px-0 pb-14 lg:pb-0"
-        >
+        <div className="max-w-full lg:max-w-[481px] text-start w-full lg:w-[40%] pt-[120px] sm:pt-20  px-8 sm:px-10 md:px-14 lg:px-4 min-[1370px]:px-0 pb-14 lg:pb-0">
           <div>
             <div className="max-w-[218px] sm:max-w-[320px] md:max-w-[376px] mb-1">
               <img src={health} alt="img" />
@@ -109,7 +106,7 @@ function PreventiveCare() {
           </div>
         </div>
       </div>
-      <div className="flex-wrap lg:flex-nowrap flex gap-14 justify-center lg:justify-end items-end">
+      <div className="flex-wrap lg:flex-nowrap flex gap-14 justify-center lg:justify-end">
         <div className="max-w-full lg:max-w-[481px] text-start w-full lg:w-[40%] pl-8 min-[1370px]:pl-0">
           <div>
             <div className="max-w-[218px] sm:max-w-[320px] md:max-w-[376px] mb-2 sm:mb-10 lg:mb-20 mt-[160px] sm:mt-20 lg:mt-0">

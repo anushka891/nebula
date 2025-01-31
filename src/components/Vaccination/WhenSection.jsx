@@ -1,14 +1,9 @@
 import React, { useRef, useState } from "react";
 import foot from "./../../assests/img/png/footer-service-position.png";
-// Import Swiper React components
 import { Swiper, SwiperSlide } from "swiper/react";
-
-// Import Swiper styles
 import "swiper/css";
 import "swiper/css/pagination";
-// import required modules
 import { Pagination } from "swiper/modules";
-
 import logo from "./../../assests/img/png/puppies-logo.png";
 import Mainheading from "./../common/Mainheading";
 import SubChild from "./../common/SubChild";

@@ -1,10 +1,7 @@
 import React, { useRef, useState } from "react";
-// Import Swiper React components
 import { Swiper, SwiperSlide } from "swiper/react";
-
-// Import Swiper styles
 import "swiper/css";
-import "swiper/css/pagination"; // import required modules
+import "swiper/css/pagination";
 import { Pagination } from "swiper/modules";
 import Mainheading from "../common/Mainheading";
 import slideone from "./../../assests/img/png/digno-slider-img-1.png";

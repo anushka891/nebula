@@ -7,7 +7,6 @@ import dog1 from "./../../assests/img/png/dog-img-1.png";
 import dog2 from "./../../assests/img/png/dog-img-2.png";
 import dog3 from "./../../assests/img/png/dog-img-3.png";
 import dog4 from "./../../assests/img/png/dog-img-4.png";
-import health from "./../../assests/img/png/Preventive care big-health-check.png";
 export const dogsliderData = [
   {
     img: dog1,
@@ -104,9 +103,6 @@ export const companyData = [
   },
 ];
 export const contactData = [
-  {
-    link: "Contact Uss",
-  },
   {
     link: "Phone: (212) 123-4567",
   },

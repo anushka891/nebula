@@ -10,7 +10,7 @@ function HeroService() {
           <h2 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl text-[#D7D9DD] font-normal sm:leading-normal mb-7 avant">
             Veterinary Services
           </h2>
-          <p className="text-sm sm:text-base md:text-xl text-[#D7D9DD] font-normal roboto leading-normal mb-8">
+          <p className="text-sm sm:text-base md:text-xl text-[#D7D9DD] font-normal avant leading-normal mb-8">
             At Nebula Vets, we take pride in offering an extensive range of
             services to meet the diverse needs of our patients. Our commitment
             to comprehensive care ensures that we can provide the highest

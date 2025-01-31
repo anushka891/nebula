@@ -39,14 +39,11 @@ const AccordionItem = ({ question, answer, isActive, onClick }) => {
     </div>
   );
 };
-
 const Accordion = () => {
   const [activeIndex, setActiveIndex] = useState(null);
-
   const handleAccordionToggle = (index) => {
     setActiveIndex(activeIndex === index ? null : index);
   };
-
   return (
     <div className="mb-14 md:mb-20">
       <div className="accordion w-full">

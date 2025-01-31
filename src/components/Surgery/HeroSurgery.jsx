@@ -15,7 +15,6 @@ function HeroSurgery() {
           }
           childClass={"text-[#D7D9DD] mb-10"}
         />
-
         <Button btnTitle={"Book Now"} />
       </div>
       <div className="max-w-[240px] sm:max-w-[400px] lg:max-w-[600px] mx-auto xl:mr-0 xl:ml-0 pt-4 sm:pt-8 md:pt-24 mb-5">

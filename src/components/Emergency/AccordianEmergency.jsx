@@ -39,7 +39,6 @@ const AccordionItem = ({ question, answer, isActive, onClick }) => {
     </div>
   );
 };
-
 const Accordion = () => {
   const [activeIndex, setActiveIndex] = useState(null);
 

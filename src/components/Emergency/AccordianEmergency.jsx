@@ -47,17 +47,23 @@ const Accordion = () => {
   };
 
   return (
-    <div className="mb-14 md:mb-20">
-      <div className="accordion w-full">
-        {accordEmergencyData.map((item, index) => (
-          <AccordionItem
-            key={index}
-            question={item.question}
-            answer={item.answer}
-            isActive={activeIndex === index}
-            onClick={() => handleAccordionToggle(index)}
-          />
-        ))}
+    <div className="overflow-x-hidden">
+      <div className="mb-14 md:mb-20">
+        <div
+          data-aos="fade-up"
+          data-aos-duration="1500"
+          className="accordion w-full"
+        >
+          {accordEmergencyData.map((item, index) => (
+            <AccordionItem
+              key={index}
+              question={item.question}
+              answer={item.answer}
+              isActive={activeIndex === index}
+              onClick={() => handleAccordionToggle(index)}
+            />
+          ))}
+        </div>
       </div>
     </div>
   );

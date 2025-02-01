@@ -17,13 +17,21 @@ function HeroSection() {
           />
         </div>
         <div className="max-w-[511px] text-start ml-12 sm:ml-20 md:ml-28 lg:ml-[150px] xl:ml-[182px]">
-          <h2 className="text-5xl md:text-6xl lg:text-7xl text-[#D7D9DD] font-normal leading-normal pt-[150px] lg:pt-[193px] mb-7 avant mx-2">
+          <h2
+            data-aos="fade-right"
+            className="text-5xl md:text-6xl lg:text-7xl text-[#D7D9DD] font-normal leading-normal pt-[150px] lg:pt-[193px] mb-7 avant mx-2"
+          >
             Welcome to Nebula Vets
           </h2>
-          <p className="text-3xl text-[#D7D9DD] font-normal roboto leading-normal mb-8 mx-2">
+          <p
+            data-aos="fade-left"
+            className="text-3xl text-[#D7D9DD] font-normal roboto leading-normal mb-8 mx-2"
+          >
             Reinventing Pet Medicine
           </p>
-          <Button btnTitle={"Book Now"} className={"mb-20"} />
+          <div data-aos="flip-left" data-aos-duration="1500">
+            <Button btnTitle={"Book Now"} className={"mb-20"} />
+          </div>
         </div>
       </div>
       <div className="flex min-[400px]:hidden bg-[rgba(215,217,221,0.50)] max-w-[1340px] mx-auto min-[350px] px-8 flex flex-wrap">

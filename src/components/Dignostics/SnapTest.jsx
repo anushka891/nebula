@@ -9,9 +9,12 @@ import slidetwo from "./../../assests/img/png/dig-slider-img-2.png";
 import WeLook from "../Emergency/WeLook";
 function SnapTest() {
   return (
-    <>
+    <div className="overflow-x-hidden">
       <div className="bg-[rgba(215,217,221,0.50)]">
-        <div className="max-w-[1180px] px-8 md:px-10 lg:px-12 mx-auto py-14 md:py-20 text-start">
+        <div
+          data-aos="fade-up-right"
+          className="max-w-[1180px] px-8 md:px-10 lg:px-12 mx-auto py-14 md:py-20 text-start"
+        >
           <Mainheading maintitle={"Available SNAP Tests"} className={"pb-10"} />
           <Swiper
             pagination={true}
@@ -102,7 +105,7 @@ function SnapTest() {
         </div>
       </div>
       <WeLook />
-    </>
+    </div>
   );
 }
 

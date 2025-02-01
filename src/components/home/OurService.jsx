@@ -5,7 +5,11 @@ import Button from "../common/Button";
 
 function OurService() {
   return (
-    <div className="max-w-[770px] text-start ml-8 sm:ml-20 lg:ml-[100px] xl:ml-[180px] my-14 sm:my-16 md:my-20 mr-8">
+    <div
+      data-aos="fade-up"
+      data-aos-anchor-placement="bottom-bottom"
+      className="max-w-[770px] text-start ml-8 sm:ml-20 lg:ml-[100px] xl:ml-[180px] my-14 sm:my-16 md:my-20 mr-8"
+    >
       <Mainheading
         maintitle={"Our Services"}
         className={"mb-3 sm:mb-6 md:mb-8"}

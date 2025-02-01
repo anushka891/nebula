@@ -46,7 +46,12 @@ const Accordion = () => {
     setActiveIndex(activeIndex === index ? null : index);
   };
   return (
-    <div className="mb-14 md:mb-20">
+    <div
+      data-aos="flip-left"
+      data-aos-easing="ease-out-cubic"
+      data-aos-duration="3000"
+      className="mb-14 md:mb-20"
+    >
       <div className="accordion w-full">
         {accordDignoData.map((item, index) => (
           <AccordionItem

@@ -24,16 +24,14 @@ import JoinPage from './components/pages/home/JoinPage';
 import AboutNebula from './components/pages/home/AboutNebula';
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import Layout from './components/layout/Layout';
-
- 
 function App() {
     useEffect(() => {
     AOS.init({});
   }, []);
   return (
     <div className="App">
-        <BrowserRouter>
-<Layout>
+      <BrowserRouter>
+        <Layout>
         <Routes>
         <Route path='/' element={<HomeSection />} />
         <Route path='/service' element={<ServicesSection />} />
@@ -51,8 +49,8 @@ function App() {
             <Route path='/laser' element={ <Laser/>} />
             <Route path='/hospice' element={<Hospice />} />
             <Route path='/digno' element={ <Dignostics/>} />
-            <Route path='/washing' element={ <Washington/>} />
-   <Route path='/join' element={<JoinPage/>} />
+            <Route path='/washing' element={<Washington />} />
+            <Route path='/join' element={<JoinPage />} />
             <Route path='/about' element={  <AboutNebula/>} />
           </Routes>
         </Layout>

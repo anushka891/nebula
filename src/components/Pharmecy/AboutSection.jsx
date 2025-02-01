@@ -4,9 +4,14 @@ import TextLG from "../common/TextLG";
 import wave from "./../../assests/img/png/pharmecy-wave-about.png";
 function AboutSection() {
   return (
-    <div>
+    <div className="overflow-x-hidden">
       <div className="bg-[rgba(215,217,221,0.50);] pt-14 md:pt-20">
-        <div className="max-w-[1180px] mx-auto px-8 md:px-10 lg:px-12 text-[#494336] text-start">
+        <div
+          data-aos="fade-left"
+          data-aos-easing="ease-out-cubic"
+          data-aos-duration="2000"
+          className="max-w-[1180px] mx-auto px-8 md:px-10 lg:px-12 text-[#494336] text-start"
+        >
           <Subheading subtitle={"How it works"} className={"pb-5 md:pb-9"} />
           <TextLG
             title={

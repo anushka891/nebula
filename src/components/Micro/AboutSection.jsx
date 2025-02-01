@@ -6,9 +6,13 @@ import wave from "./../../assests/img/png/Travel-wave.png";
 
 function AboutSection() {
   return (
-    <div>
+    <div className="overflow-x-hidden">
       <div className="bg-[rgba(215,217,221,0.50);] pt-14 md:pt-20">
-        <div className="max-w-[1170px] mx-auto px-8 md:px-10 lg:px-12 text-[#494336] text-start">
+        <div
+          data-aos="zoom-out-right"
+          data-aos-duration="1500"
+          className="max-w-[1170px] mx-auto px-8 md:px-10 lg:px-12 text-[#494336] text-start"
+        >
           <h2 className="text-base sm:text-lg md:text-xl lg:text-2xl xl:text-[28px] font-normal roboto text-[#494336] leading-[normal] mb-11 md:mb-14 lg:mb-[60px]">
             Here are a few compelling reasons why microchipping is a wise
             choice:

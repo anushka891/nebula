@@ -5,9 +5,13 @@ import WeLook from "../Emergency/WeLook";
 
 function ExperiencePharmecy() {
   return (
-    <>
+    <div className="overflow-x-hidden">
       <div className="bg-[rgba(215,217,221,0.50);]">
-        <div className="text-start max-w-[1180px] px-8 md:px-10 lg:px-12 mx-auto py-14 md:py-20">
+        <div
+          data-aos="zoom-in"
+          data-aos-duration="2000"
+          className="text-start max-w-[1180px] px-8 md:px-10 lg:px-12 mx-auto py-14 md:py-20"
+        >
           <Subheading
             subtitle={
               "Experience Exceptional Pharmacy Services at Nebula Vets:"
@@ -22,7 +26,7 @@ function ExperiencePharmecy() {
         </div>
       </div>
       <WeLook />
-    </>
+    </div>
   );
 }
 

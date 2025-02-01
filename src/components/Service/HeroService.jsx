@@ -18,7 +18,12 @@ function HeroService() {
           </p>
           <Button btnTitle={"Book Now"} className={"mb-6 sm:mb-16 md:mb-20"} />
         </div>
-        <div className="max-w-[653px] min-w-[320px] min-[358px]:min-w-[362px] hidden sm:flex">
+        <div
+          data-aos="flip-left"
+          data-aos-easing="ease-out-cubic"
+          data-aos-duration="2000"
+          className="max-w-[653px] min-w-[320px] min-[358px]:min-w-[362px] hidden sm:flex"
+        >
           <img src={hero} alt="hero" width={"100%"} />
         </div>
         <div className="max-w-[653px] min-w-[300px] min-[358px]:min-w-[362px] flex sm:hidden">

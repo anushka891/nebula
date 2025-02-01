@@ -5,9 +5,14 @@ import Button from "../common/Button";
 import foot from "./../../assests/img/png/footer-service-position.png";
 function Difference() {
   return (
-    <>
+    <div className="overflow-x-hidden">
       <div className="bg-[rgba(215,217,221,0.50);]">
-        <div className="text-start max-w-[1180px] px-8 md:px-10 lg:px-12 mx-auto py-14 md:py-20">
+        <div
+          data-aos="fade-right"
+          data-aos-offset="300"
+          data-aos-easing="ease-in-sine"
+          className="text-start max-w-[1180px] px-8 md:px-10 lg:px-12 mx-auto py-14 md:py-20"
+        >
           <Subheading
             subtitle={"Nebula Vets’ Difference in Dermatology and Skin Care:"}
             className={"pb-9"}
@@ -39,7 +44,7 @@ function Difference() {
           <img src={foot} alt="footer" width={"100%"} />
         </div>
       </div>
-    </>
+    </div>
   );
 }
 

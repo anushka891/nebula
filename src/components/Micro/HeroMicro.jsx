@@ -17,7 +17,11 @@ function HeroMicro() {
         />
         <Button btnTitle={"Book Now"} className={"mb-20"} />
       </div>
-      <div className="max-w-[240px] sm:max-w-[400px] lg:max-w-[624px] mx-auto xl:mr-0 xl:ml-0 pt-10 xl:pt-[119px] pb-0 sm:pb-6 xl:pb-14">
+      <div
+        data-aos="flip-up"
+        data-aos-duration="1000"
+        className="max-w-[240px] sm:max-w-[400px] lg:max-w-[624px] mx-auto xl:mr-0 xl:ml-0 pt-10 xl:pt-[119px] pb-0 sm:pb-6 xl:pb-14"
+      >
         <img src={hero} alt="hero" width={"100%"} />
       </div>
     </div>

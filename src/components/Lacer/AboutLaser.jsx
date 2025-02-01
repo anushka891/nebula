@@ -4,9 +4,14 @@ import SubChild from "../common/SubChild";
 import wave from "./../../assests/img/png/Travel-wave.png";
 function AboutLaser() {
   return (
-    <div>
+    <div className="overflow-x-hidden">
       <div className="bg-[rgba(215,217,221,0.50);] pt-14 md:pt-20">
-        <div className="max-w-[1170px] mx-auto px-8 md:px-10 lg:px-12 text-[#494336] text-start">
+        <div
+          data-aos="fade-down"
+          data-aos-easing="linear"
+          data-aos-duration="1000"
+          className="max-w-[1170px] mx-auto px-8 md:px-10 lg:px-12 text-[#494336] text-start"
+        >
           <h2 className="text-base sm:text-lg md:text-xl lg:text-2xl xl:text-[28px] font-normal roboto text-[#494336] leading-[normal] mb-11 md:mb-14 lg:mb-[60px]">
             Discover the Power of Laser Therapy at Nebula Vets: Elevating Pet
             Wellness with Advanced Healing
@@ -31,7 +36,7 @@ function AboutLaser() {
             }
           />
         </div>
-        <div className="mt-[-40px] md:mt-[-100px] lg:mt-[-300px] xl:mt-[-400px] w-full linear-border">
+        <div className="mt-[-40px] md:mt-[-100px] lg:mt-[-300px] xl:mt-[-400px] w-full">
           <img src={wave} alt="wave" width={"100%"} />
         </div>
       </div>

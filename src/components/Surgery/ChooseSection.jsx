@@ -5,9 +5,14 @@ import Button from "../common/Button";
 import foot from "./../../assests/img/png/surgery-wave-position.png";
 function ChooseSection() {
   return (
-    <>
+    <div className="overflow-x-hidden">
       <div className="bg-[rgba(215,217,221,0.50);]">
-        <div className="text-start max-w-[1180px] px-8 md:px-10 lg:px-12 mx-auto py-14 md:py-20">
+        <div
+          data-aos="fade-left"
+          data-aos-easing="ease-out-cubic"
+          data-aos-duration="2000"
+          className="text-start max-w-[1180px] px-8 md:px-10 lg:px-12 mx-auto py-14 md:py-20"
+        >
           <Subheading
             subtitle={"Choose Nebula Vets for Exceptional Surgical Care:"}
             className={"pb-9"}
@@ -39,7 +44,7 @@ function ChooseSection() {
           <img src={foot} alt="footer" width={"100%"} />
         </div>
       </div>
-    </>
+    </div>
   );
 }
 

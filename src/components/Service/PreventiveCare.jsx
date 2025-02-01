@@ -18,6 +18,8 @@ function PreventiveCare() {
   return (
     <div>
       <div
+        data-aos="fade-right"
+        data-aos-duration="2000"
         id="PreventiveCare"
         className="flex-wrap lg:flex-nowrap flex gap-4 xl:gap-14 justify-center lg:justify-end items-start"
       >

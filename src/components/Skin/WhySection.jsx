@@ -11,7 +11,11 @@ const AccordionItem = ({ question, answer, isActive, onClick }) => {
           onClick={onClick}
           className="w-full text-start flex justify-between items-center"
         >
-          <h2 className="text-base sm:text-xl md:text-[24px] roboto font-normal leading-[150%] text-[#494336] pt-8 pb-6 mr-20">
+          <h2
+            data-aos="fade-left"
+            data-aos-duration="2000"
+            className="text-base sm:text-xl md:text-[24px] roboto font-normal leading-[150%] text-[#494336] pt-8 pb-6 mr-20"
+          >
             {question}
           </h2>
           <span>

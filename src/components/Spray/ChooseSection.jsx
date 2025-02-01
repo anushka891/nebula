@@ -7,7 +7,11 @@ function ChooseSection() {
   return (
     <div>
       <div className="bg-[rgba(215,217,221,0.50);] mb-0 sm:mb-6 md:mb-14">
-        <div className="text-start max-w-[1180px] px-8 md:px-10 lg:px-12 mx-auto py-14 md:py-20">
+        <div
+          data-aos="zoom-out-right"
+          data-aos-duration="1500"
+          className="text-start max-w-[1180px] px-8 md:px-10 lg:px-12 mx-auto py-14 md:py-20"
+        >
           <Subheading
             subtitle={
               "Choose Nebula Vets for Exceptional Spay and Neuter Services:"

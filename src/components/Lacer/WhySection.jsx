@@ -46,17 +46,23 @@ const Accordion = () => {
     setActiveIndex(activeIndex === index ? null : index);
   };
   return (
-    <div className="mb-14 md:mb-20">
-      <div className="accordion w-full">
-        {accordLacerData.map((item, index) => (
-          <AccordionItem
-            key={index}
-            question={item.question}
-            answer={item.answer}
-            isActive={activeIndex === index}
-            onClick={() => handleAccordionToggle(index)}
-          />
-        ))}
+    <div className="overflow-x-hidden">
+      <div className="mb-14 md:mb-20">
+        <div
+          data-aos="zoom-out-right"
+          data-aos-duration="2000"
+          className="accordion w-full"
+        >
+          {accordLacerData.map((item, index) => (
+            <AccordionItem
+              key={index}
+              question={item.question}
+              answer={item.answer}
+              isActive={activeIndex === index}
+              onClick={() => handleAccordionToggle(index)}
+            />
+          ))}
+        </div>
       </div>
     </div>
   );

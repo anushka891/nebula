@@ -7,7 +7,11 @@ function OurTeam() {
   return (
     <div className="bg-[#494336] flex-wrap">
       <div className="px-8 pt-20 text-start max-w-[1180px] mx-auto px-8 md:px-10 lg:px-12">
-        <div className="max-w-[867px]">
+        <div
+          data-aos="zoom-in-down"
+          data-aos-duration="3000"
+          className="max-w-[867px]"
+        >
           <Subheading
             subtitle={"Join our team"}
             className={"text-[#D7D9DD] mb-8"}

@@ -23,7 +23,12 @@ function HeroVaccination() {
         />
         <Button btnTitle={"Book Now"} />
       </div>
-      <div className="max-w-[300px] sm:max-w-[400px] md:max-w-[500px] lg:max-w-[550px] mt-2 mx-auto xl:mr-0 xl:ml-0">
+      <div
+        data-aos="flip-left"
+        data-aos-easing="ease-out-cubic"
+        data-aos-duration="2000"
+        className="max-w-[300px] sm:max-w-[400px] md:max-w-[500px] lg:max-w-[550px] mt-2 mx-auto xl:mr-0 xl:ml-0"
+      >
         <img src={hero} alt="hero" width={"100%"} />
       </div>
     </div>

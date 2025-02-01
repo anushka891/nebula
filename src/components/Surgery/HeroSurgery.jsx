@@ -17,7 +17,12 @@ function HeroSurgery() {
         />
         <Button btnTitle={"Book Now"} />
       </div>
-      <div className="max-w-[240px] sm:max-w-[400px] lg:max-w-[600px] mx-auto xl:mr-0 xl:ml-0 pt-4 sm:pt-8 md:pt-24 mb-5">
+      <div
+        data-aos="flip-left"
+        data-aos-easing="ease-out-cubic"
+        data-aos-duration="1000"
+        className="max-w-[240px] sm:max-w-[400px] lg:max-w-[600px] mx-auto xl:mr-0 xl:ml-0 pt-4 sm:pt-8 md:pt-24 mb-5"
+      >
         <img src={hero} alt="hero" width={"100%"} />
       </div>
     </div>

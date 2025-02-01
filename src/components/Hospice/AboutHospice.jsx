@@ -5,7 +5,11 @@ import wave from "./../../assests/img/png/Travel-wave.png";
 function AboutHospice() {
   return (
     <div className="bg-[rgba(215,217,221,0.50);] pt-14 md:pt-20">
-      <div className="max-w-[1170px] mx-auto px-8 md:px-10 lg:px-12 text-[#494336] text-start">
+      <div
+        data-aos="fade-right"
+        data-aos-duration="2000"
+        className="max-w-[1170px] mx-auto px-8 md:px-10 lg:px-12 text-[#494336] text-start"
+      >
         <Subheading
           subtitle={"Euthanasia Service"}
           className={"pb-5 md:pb-9"}

@@ -9,7 +9,12 @@ function DownTownMap() {
         <img src={down} alt="downtown" />
       </div>
       <div className="flex-col-reverse lg:flex-row flex justify-center lg:justify-end bg-[rgba(215,217,221,0.50)] pb-24 pt-14 md:py-20 gap-0 lg:gap-5">
-        <div className="max-w-full lg:max-w-[423px] w-full text-start mt-14 lg:mt-0 px-8">
+        <div
+          data-aos="fade-down"
+          data-aos-easing="linear"
+          data-aos-duration="1500"
+          className="max-w-full lg:max-w-[423px] w-full text-start mt-14 lg:mt-0 px-8"
+        >
           <SubHeading subtitle={"Downtown"} className={"mb-6 md:mb-12"} />
           <p className="text-base sm:text-lg md:text-xl xl:text-2xl text-[#494336] roboto font-normal leading-[36px] mb-10">
             2468 18th Street, SW Washington DC, 20003

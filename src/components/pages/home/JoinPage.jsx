@@ -1,8 +1,8 @@
 import React from "react";
-import HeroJoin from "../../Join/HeroJoin";
-import WhySection from "../../Join/WhySection";
-import WhyHeading from "../../Join/WhyHeading";
-import OurTeam from "../../Join/OurTeam";
+import HeroJoin from "../../join/HeroJoin";
+import WhySection from "../../join/WhySection";
+import WhyHeading from "../../join/WhyHeading";
+import OurTeam from "../../join/OurTeam";
 function JoinPage() {
   return (
     <>

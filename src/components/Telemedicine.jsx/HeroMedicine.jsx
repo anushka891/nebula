@@ -1,6 +1,6 @@
 import React from "react";
-import SubChild from "./../common/SubChild";
-import Button from "./../common/Button";
+import SubChild from "../common/SubChild";
+import Button from "../common/Button";
 import hero from "./../../assests/img/png/medicine-hero-main.png";
 function HeroMedicine() {
   return (

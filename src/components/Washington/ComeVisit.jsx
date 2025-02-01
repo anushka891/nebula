@@ -1,6 +1,6 @@
 import React from "react";
-import Mainheading from "./../common/Mainheading";
-import Button from "./../common/Button";
+import Mainheading from "../common/Mainheading";
+import Button from "../common/Button";
 import come from "./../../assests/img/png/come-main.png";
 function ComeVisit() {
   return (

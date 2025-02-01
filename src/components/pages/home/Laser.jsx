@@ -1,9 +1,9 @@
 import React from "react";
-import HeroLacer from "../../Lacer/HeroLacer";
-import AboutLaser from "../../Lacer/AboutLaser";
-import WhySection from "../../Lacer/WhySection";
-import WhyHeading from "../../Lacer/WhyHeading";
-import ExperienceSection from "../../Lacer/ExperienceSection";
+import HeroLacer from "../../lacer/HeroLacer";
+import AboutLaser from "../../lacer/AboutLaser";
+import WhySection from "../../lacer/WhySection";
+import WhyHeading from "../../lacer/WhyHeading";
+import ExperienceSection from "../../lacer/ExperienceSection";
 function Laser() {
   return (
     <>

@@ -1,6 +1,6 @@
 import React from "react";
-import Subheading from "./../common/Subheading";
-import TextLG from "./../common/TextLG";
+import Subheading from "../common/Subheading";
+import TextLG from "../common/TextLG";
 import wave from "./../../assests/img/png/why-should-position-wave.png";
 function AboutSection() {
   return (

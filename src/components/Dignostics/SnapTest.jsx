@@ -6,7 +6,7 @@ import { Pagination } from "swiper/modules";
 import Mainheading from "../common/Mainheading";
 import slideone from "./../../assests/img/png/digno-slider-img-1.png";
 import slidetwo from "./../../assests/img/png/dig-slider-img-2.png";
-import WeLook from "../Emergency/WeLook";
+import WeLook from "../emergency/WeLook";
 function SnapTest() {
   return (
     <div className="overflow-x-hidden">

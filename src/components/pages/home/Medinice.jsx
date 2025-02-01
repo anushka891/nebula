@@ -1,7 +1,7 @@
 import React from "react";
-import HeroMedicine from "../../Telemedicine.jsx/HeroMedicine";
-import AboutMedecine from "../../Telemedicine.jsx/AboutMedecine";
-import SliderSection from "../../Telemedicine.jsx/SliderSection";
+import HeroMedicine from "../../telemedicine.jsx/HeroMedicine";
+import AboutMedecine from "../../telemedicine.jsx/AboutMedecine";
+import SliderSection from "../../telemedicine.jsx/SliderSection";
 
 function Medinice() {
   return (

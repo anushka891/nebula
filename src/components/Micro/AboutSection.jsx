@@ -1,6 +1,6 @@
 import React from "react";
 import SubChild from "../common/SubChild";
-import WeLook from "../Emergency/WeLook";
+import WeLook from "../emergency/WeLook";
 import Subheading from "../common/Subheading";
 import wave from "./../../assests/img/png/Travel-wave.png";
 

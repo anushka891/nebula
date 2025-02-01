@@ -1,8 +1,8 @@
 import React from "react";
-import HeroSection from "../../HealthCheck/HeroSection";
-import CheckExam from "../../HealthCheck/CheckExam";
-import WhySection from "../../HealthCheck/WhySection";
-import ExperienceSection from "../../HealthCheck/ExperienceSection";
+import HeroSection from "../../healthCheck/HeroSection";
+import CheckExam from "../../healthCheck/CheckExam";
+import WhySection from "../../healthCheck/WhySection";
+import ExperienceSection from "../../healthCheck/ExperienceSection";
 import AccordianSecond from "./../../common/AccordianSecond";
 function HealthCheck() {
   return (

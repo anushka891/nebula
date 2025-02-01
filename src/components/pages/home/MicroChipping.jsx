@@ -1,6 +1,6 @@
 import React from "react";
-import HeroMicro from "../../Micro/HeroMicro";
-import AboutSection from "../../Micro/AboutSection";
+import HeroMicro from "../../micro/HeroMicro";
+import AboutSection from "../../micro/AboutSection";
 
 function MicroChipping() {
   return (

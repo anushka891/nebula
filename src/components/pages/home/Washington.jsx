@@ -1,7 +1,7 @@
 import React from "react";
-import HeroWashington from "../../Washington/HeroWashington";
-import DownTownMap from "../../Washington/DownTownMap";
-import ComeVisit from "../../Washington/ComeVisit";
+import HeroWashington from "../../washington/HeroWashington";
+import DownTownMap from "../../washington/DownTownMap";
+import ComeVisit from "../../washington/ComeVisit";
 
 function Washington() {
   return (

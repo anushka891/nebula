@@ -1,6 +1,6 @@
 import React from "react";
-import HeroHospice from "../../Hospice/HeroHospice";
-import AboutHospice from "../../Hospice/AboutHospice";
+import HeroHospice from "../../hospice/HeroHospice";
+import AboutHospice from "../../hospice/AboutHospice";
 
 function Hospice() {
   return (

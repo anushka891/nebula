@@ -1,5 +1,5 @@
 import React from "react";
-import SubHeading from "./../common/Subheading";
+import SubHeading from "../common/Subheading";
 import down from "./../../assests/img/png/downtown-wave-img.png";
 
 function DownTownMap() {

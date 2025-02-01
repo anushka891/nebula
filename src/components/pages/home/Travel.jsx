@@ -1,6 +1,6 @@
 import React from "react";
-import HeroTravel from "../../Travel.jsx/HeroTravel";
-import AboutSection from "../../Travel.jsx/AboutSection";
+import HeroTravel from "../../travel.jsx/HeroTravel";
+import AboutSection from "../../travel.jsx/AboutSection";
 function Travel() {
   return (
     <>

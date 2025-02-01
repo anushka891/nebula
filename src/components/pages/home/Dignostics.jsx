@@ -1,10 +1,10 @@
 import React from "react";
-import HeroDigno from "../../Dignostics/HeroDigno";
-import AboutDigno from "../../Dignostics/AboutDigno";
-import AccordDigno from "../../Dignostics/AccordDigno";
-import Available from "../../Dignostics/Available";
-import AccordSecondDigno from "../../Dignostics/AccordSecondDigno";
-import SnapTest from "../../Dignostics/SnapTest";
+import HeroDigno from "../../dignostics/HeroDigno";
+import AboutDigno from "../../dignostics/AboutDigno";
+import AccordDigno from "../../dignostics/AccordDigno";
+import Available from "../../dignostics/Available";
+import AccordSecondDigno from "../../dignostics/AccordSecondDigno";
+import SnapTest from "../../dignostics/SnapTest";
 function Dignostics() {
   return (
     <>

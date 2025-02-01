@@ -5,7 +5,7 @@ import "swiper/css/pagination";
 import { Pagination } from "swiper/modules";
 import { medicineData } from "../helper/Helper";
 import Button from "../common/Button";
-import WeLook from "./../Emergency/WeLook";
+import WeLook from "../emergency/WeLook";
 function SliderSection() {
   return (
     <>

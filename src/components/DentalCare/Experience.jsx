@@ -1,7 +1,7 @@
 import React from "react";
 import Subheading from "../common/Subheading";
 import SubChild from "../common/SubChild";
-import WeLook from "../HealthCheck/WeLook";
+import WeLook from "../healthCheck/WeLook";
 function Experience() {
   return (
     <div className="overflow-x-hidden">

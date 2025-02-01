@@ -2,10 +2,10 @@ import React from "react";
 import wave from "./../../assests/img/png/Travel-wave.png";
 import Subheading from "../common/Subheading";
 import SubChild from "../common/SubChild";
-import WeLook from "../Emergency/WeLook";
+import WeLook from "../emergency/WeLook";
 function AboutSection() {
   return (
-    <>
+    <div className="overflow-x-hidden">
       <div className="bg-[rgba(215,217,221,0.50);] pt-14 md:pt-20">
         <div className="max-w-[1170px] mx-auto px-8 md:px-10 lg:px-12 text-[#494336] text-start">
           <div data-aos="fade-right" data-aos-duration="1000">
@@ -76,7 +76,7 @@ function AboutSection() {
         </div>
       </div>
       <WeLook />
-    </>
+    </div>
   );
 }
 

@@ -1,9 +1,9 @@
 import React from "react";
-import HeroAbout from "../../About/HeroAbout";
-import Inspiration from "../../About/Inspiration";
-import Innovation from "../../About/Innovation";
-import Community from "../../About/Community";
-import MeetTeam from "../../About/MeetTeam";
+import HeroAbout from "../../about/HeroAbout";
+import Inspiration from "../../about/Inspiration";
+import Innovation from "../../about/Innovation";
+import Community from "../../about/Community";
+import MeetTeam from "../../about/MeetTeam";
 
 function AboutNebula() {
   return (

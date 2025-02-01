@@ -1,8 +1,8 @@
 import React from "react";
-import HeroVaccination from "../../Vaccination/HeroVaccination";
-import WhyShould from "../../Vaccination/WhyShould";
-import Accordion from "../../Vaccination/Accordian";
-import WhenSection from "../../Vaccination/WhenSection";
+import HeroVaccination from "../../vaccination/HeroVaccination";
+import WhyShould from "../../vaccination/WhyShould";
+import Accordion from "../../vaccination/Accordian";
+import WhenSection from "../../vaccination/WhenSection";
 
 function Vaccinations() {
   return (

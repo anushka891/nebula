@@ -1,10 +1,10 @@
 import React from "react";
-import HeroDental from "../../DentalCare/HeroDental";
-import AboutSection from "../../DentalCare/AboutSection";
-import AccordianDental from "../../DentalCare/AccordianDental";
-import WhyDental from "../../DentalCare/WhyDental";
-import Experience from "../../DentalCare/Experience";
-import WeLook from "../../HealthCheck/WeLook";
+import HeroDental from "../../dentalCare/HeroDental";
+import AboutSection from "../../dentalCare/AboutSection";
+import AccordianDental from "../../dentalCare/AccordianDental";
+import WhyDental from "../../dentalCare/WhyDental";
+import Experience from "../../dentalCare/Experience";
+import WeLook from "../../healthCheck/WeLook";
 function DentalCare() {
   return (
     <>

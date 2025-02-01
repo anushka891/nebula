@@ -28,13 +28,14 @@ function Footer() {
             />
             <div className="flex gap-5">
               {footImgData.map((item, index) => (
-                <a
+                <Link
+                  to={item.url}
                   key={index}
-                  className="hover:translate-y-2 duration-300 hover:shadow-lg hover:shadow-[#8FD9D9] rounded-full"
-                  href={item.url}
+                  className="hover:translate-y-2 duration-300 hover:shadow-lg
+                  hover:shadow-[#8FD9D9] rounded-full"
                 >
                   {item.icon}
-                </a>
+                </Link>
               ))}
             </div>
           </div>
@@ -78,8 +79,8 @@ function Footer() {
               {contactData.map((item, index) => (
                 <Link
                   to={item.url}
-                  className="text-sm sm:text-base md:text-[18px] font-normal
-                  avant text-[#D7D9DD] leading-[144%] underline mb-2
+                  className="text-sm sm:text-base md:text-[18px]
+                  font-normal avant text-[#D7D9DD] leading-[144%] underline mb-2
                   hover:text-[#8FD9D9] duration-300"
                   key={index}
                 >

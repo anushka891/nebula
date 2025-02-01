@@ -70,15 +70,9 @@ export const accordata = [
   },
 ];
 export const footImgData = [
-  {
-    icon: <FbIcon />,
-  },
-  {
-    icon: <LinkIcon />,
-  },
-  {
-    icon: <InstaIcon />,
-  },
+  { url: "https://www.facebook.com/", icon: <FbIcon /> },
+  { url: "https://in.linkedin.com/", icon: <LinkIcon /> },
+  { url: "https://www.instagram.com/", icon: <InstaIcon /> },
 ];
 export const serviceData = [
   {
@@ -97,10 +91,8 @@ export const companyData = [
   },
 ];
 export const contactData = [
-  {
-    link: "Phone: (212) 123-4567",
-  },
-  { link: "hello@nebulavets.com" },
+  { url: "/washing", link: "Phone: (212) 123-4567" },
+  { url: "/washing", link: "hello@nebulavets.com" },
 ];
 export const sliderData = [
   {

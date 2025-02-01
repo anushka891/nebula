@@ -1,9 +1,9 @@
 import React from "react";
-import HeroSurgery from "../../Surgery/HeroSurgery";
-import AboutSection from "../../Surgery/AboutSection";
-import WhySection from "./../../Surgery/WhySection";
-import WhyHeading from "../../Surgery/WhyHeading";
-import ChooseSection from "../../Surgery/ChooseSection";
+import HeroSurgery from "../../surgery/HeroSurgery";
+import AboutSection from "../../surgery/AboutSection";
+import WhySection from "../../surgery/WhySection";
+import WhyHeading from "../../surgery/WhyHeading";
+import ChooseSection from "../../surgery/ChooseSection";
 
 function Surgery() {
   return (

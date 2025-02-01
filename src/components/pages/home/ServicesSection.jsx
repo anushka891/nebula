@@ -1,8 +1,8 @@
 import React from "react";
-import CareSection from "../../Service/CareSection";
-import DogsSection from "../../Service/DogsSection";
-import HeroService from "../../Service/HeroService";
-import PreventiveCare from "../../Service/PreventiveCare";
+import CareSection from "../../service/CareSection";
+import DogsSection from "../../service/DogsSection";
+import HeroService from "../../service/HeroService";
+import PreventiveCare from "../../service/PreventiveCare";
 
 function ServicesSection() {
   return (

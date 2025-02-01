@@ -1,8 +1,8 @@
 import React from "react";
-import HeroSkin from "../../Skin/HeroSkin";
-import WhySection from "./../../Skin/WhySection";
-import WhyHeading from "../../Skin/WhyHeading";
-import Difference from "../../Skin/Difference";
+import HeroSkin from "../../skin/HeroSkin";
+import WhySection from "../../skin/WhySection";
+import WhyHeading from "../../skin/WhyHeading";
+import Difference from "../../skin/Difference";
 function Skin() {
   return (
     <>

@@ -1,7 +1,7 @@
 import React from "react";
 import SubChild from "../common/SubChild";
 import Subheading from "../common/Subheading";
-import WeLook from "../Emergency/WeLook";
+import WeLook from "../emergency/WeLook";
 
 function ExperiencePharmecy() {
   return (

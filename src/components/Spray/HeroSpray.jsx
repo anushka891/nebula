@@ -4,8 +4,8 @@ import Button from "../common/Button";
 import hero from "./../../assests/img/png/spray-hero-main.png";
 function HeroSpray() {
   return (
-    <div className="overflow-x-hidden">
-      <div className="bg-[#494336] flex-col-reverse xl:flex-row flex items-end pr-8 sm:pr-10 lg:pr-12 xl:pr-0 justify-center xl:justify-end pl-8 sm:pl-10 lg:pl-12 gap-0 md:gap-16 xl:gap-[175px] ml-auto mr-0 pb-14 md:pb-20">
+    <div className="overflow-x-hidden bg-[#494336]">
+      <div className="max-w-[1340px] ml-auto 2xl:mx-auto flex-col-reverse xl:flex-row flex items-end pr-8 sm:pr-10 lg:pr-12 xl:pr-0 justify-center xl:justify-end pl-8 sm:pl-10 lg:pl-12 gap-0 md:gap-10 lg:gap-16 xl:gap-[175px] ml-auto mr-0 pb-14 md:pb-20">
         <div className="max-w-full xl:max-w-[661px] text-start">
           <h2 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl text-[#D7D9DD] font-normal sm:leading-normal mb-5 avant">
             Spay & Neuter
@@ -27,7 +27,7 @@ function HeroSpray() {
         <div
           data-aos="flip-right"
           data-aos-duration="1000"
-          className="max-w-[240px] sm:max-w-[400px] lg:max-w-[447px] mx-auto xl:mr-0 xl:ml-0 pt-4 sm:pt-8 md:pt-12 mb-5"
+          className="max-w-[240px] sm:max-w-[300px] md:max-w-[350px] lg:max-w-[400px] xlmax-w-[447px] mr-[-30px] xl:ml-0 pt-4 sm:pt-8 md:pt-12 mb-5"
         >
           <img src={hero} alt="hero" width={"100%"} />
         </div>

@@ -12,8 +12,8 @@ import Button from "../common/Button";
 import hero from "./../../assests/img/png/join-main.png";
 function HeroJoin() {
   return (
-    <div className="overflow-x-hidden">
-      <div className="bg-[#494336]">
+    <div className="overflow-x-hidden bg-[#494336]">
+      <div className="max-w-[1340px] ml-auto 2xl:mx-auto">
         <div
           data-aos="fade-right"
           data-aos-offset="300"
@@ -39,72 +39,115 @@ function HeroJoin() {
             <img src={hero} alt="hero" width={"100%"} />
           </div>
         </div>
-        <div className="pb-[60px] sm:pb-20 md:pb-28 lg:pb-[120px]">
-          <Swiper
-            pagination={true}
-            modules={[Pagination]}
-            slidesPerView={2.5}
-            spaceBetween={20}
-            centeredSlides={true}
-            loop={true}
-            breakpoints={{
-              300: {
-                slidesPerView: 1,
-              },
-              640: {
-                slidesPerView: 2,
-              },
-              768: {
-                slidesPerView: 2.2,
-              },
-              1024: {
-                slidesPerView: 2.5,
-              },
-            }}
-            className="mySwiper linear-pagination colorful"
-          >
-            <SwiperSlide className="min-h-[384px] w-full max-w-[428px]">
-              <div className="max-w-[428px] w-full">
-                <img
-                  className="min-h-[384px]"
-                  src={dog2}
-                  alt="dog2"
-                  width={"100%"}
-                />
-              </div>
-            </SwiperSlide>
-            <SwiperSlide className="min-h-[384px] w-full max-w-[428px]">
-              <div className="max-w-[428px] w-full">
-                <img
-                  className="min-h-[384px]"
-                  src={dog3}
-                  alt="dog3"
-                  width={"100%"}
-                />
-              </div>
-            </SwiperSlide>
-            <SwiperSlide className="w-full max-w-[428px]">
-              <div className="max-w-[428px]">
-                <img
-                  className="min-h-[384px]"
-                  src={dog4}
-                  alt="dog4"
-                  width={"100%"}
-                />
-              </div>
-            </SwiperSlide>
-            <SwiperSlide className="w-full max-w-[428px]">
-              <div className="max-w-[428px] min-h-[384px] w-full">
-                <img
-                  className="min-h-[384px]"
-                  src={dog1}
-                  alt="dog1"
-                  width={"100%"}
-                />
-              </div>
-            </SwiperSlide>
-          </Swiper>
-        </div>
+      </div>
+      <div className="pb-[60px] sm:pb-20 md:pb-28 lg:pb-[120px]">
+        <Swiper
+          pagination={true}
+          modules={[Pagination]}
+          slidesPerView={2.5}
+          spaceBetween={20}
+          centeredSlides={true}
+          loop={true}
+          breakpoints={{
+            300: {
+              slidesPerView: 1,
+            },
+            640: {
+              slidesPerView: 2,
+            },
+            768: {
+              slidesPerView: 2.2,
+            },
+            1024: {
+              slidesPerView: 2.5,
+            },
+            1780: {
+              slidesPerView: 7,
+            },
+          }}
+          className="mySwiper linear-pagination colorful"
+        >
+          <SwiperSlide className="min-h-[384px] w-full max-w-[428px]">
+            <div className="max-w-[428px] w-full">
+              <img
+                className="min-h-[384px]"
+                src={dog2}
+                alt="dog2"
+                width={"100%"}
+              />
+            </div>
+          </SwiperSlide>
+          <SwiperSlide className="min-h-[384px] w-full max-w-[428px]">
+            <div className="max-w-[428px] w-full">
+              <img
+                className="min-h-[384px]"
+                src={dog3}
+                alt="dog3"
+                width={"100%"}
+              />
+            </div>
+          </SwiperSlide>
+          <SwiperSlide className="w-full max-w-[428px]">
+            <div className="max-w-[428px]">
+              <img
+                className="min-h-[384px]"
+                src={dog4}
+                alt="dog4"
+                width={"100%"}
+              />
+            </div>
+          </SwiperSlide>
+          <SwiperSlide className="w-full max-w-[428px]">
+            <div className="max-w-[428px] min-h-[384px] w-full">
+              <img
+                className="min-h-[384px]"
+                src={dog1}
+                alt="dog1"
+                width={"100%"}
+              />
+            </div>
+          </SwiperSlide>
+          <SwiperSlide className="w-full max-w-[428px]">
+            <div className="max-w-[428px] min-h-[384px] w-full">
+              <img
+                className="min-h-[384px]"
+                src={dog1}
+                alt="dog1"
+                width={"100%"}
+              />
+            </div>
+          </SwiperSlide>
+          <SwiperSlide className="w-full max-w-[428px]">
+            <div className="max-w-[428px] min-h-[384px] w-full">
+              <img
+                className="min-h-[384px]"
+                src={dog1}
+                alt="dog1"
+                width={"100%"}
+              />
+            </div>
+          </SwiperSlide>
+          <SwiperSlide className="w-full max-w-[428px]">
+            <div className="max-w-[428px] min-h-[384px] w-full">
+              <img
+                className="min-h-[384px]"
+                src={dog1}
+                alt="dog1"
+                width={"100%"}
+              />
+            </div>
+          </SwiperSlide>
+          <SwiperSlide className="w-full max-w-[428px]">
+            <div className="max-w-[428px] min-h-[384px] w-full">
+              <img
+                className="min-h-[384px]"
+                src={dog1}
+                alt="dog1"
+                width={"100%"}
+              />
+            </div>
+          </SwiperSlide>
+        </Swiper>
       </div>
     </div>
   );

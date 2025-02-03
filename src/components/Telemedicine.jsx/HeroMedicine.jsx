@@ -1,11 +1,11 @@
 import React from "react";
 import SubChild from "../common/SubChild";
 import Button from "../common/Button";
-import hero from "./../../assests/img/png/medicine-hero-main.png";
+import hero from "./../../assests/img/png/medicine-main-icon.png";
 function HeroMedicine() {
   return (
-    <div className="overflow-x-hidden">
-      <div className="bg-[#494336] flex-col-reverse xl:flex-row flex items-end pr-8 sm:pr-10 lg:pr-12 xl:pr-0 justify-center xl:justify-end pl-8 sm:pl-10 lg:pl-12 gap-0 md:gap-20 ml-auto mr-0">
+    <div className="overflow-x-hidden bg-[#494336]">
+      <div className="max-w-[1340px] ml-auto 2xl:mx-auto flex-col-reverse xl:flex-row flex items-end pr-8 sm:pr-10 lg:pr-12 xl:pr-0 justify-center xl:justify-end pl-8 sm:pl-10 lg:pl-12 gap-0 md:gap-10 xl:gap-20 ml-auto mr-0">
         <div
           data-aos="fade-right"
           data-aos-duration="1000"
@@ -25,7 +25,7 @@ function HeroMedicine() {
         <div
           data-aos="fade-left"
           data-aos-duration="1000"
-          className="max-w-[240px] sm:max-w-[400px] lg:max-w-[600px] mx-auto xl:mr-0 xl:ml-0 pt-4 sm:pt-8 pb-1 md:pb-12"
+          className="max-w-[240px] sm:max-w-[400px] lg:max-w-[-480px] xl:max-w-[600px] xl:mr-[-90px] xl:ml-0 pt-4 sm:pt-8 pb-1 md:pb-12"
         >
           <img src={hero} alt="hero" width={"100%"} />
         </div>

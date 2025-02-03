@@ -4,8 +4,8 @@ import React from "react";
 
 function HeroSection() {
   return (
-    <div className="overflow-x-hidden">
-      <div className="bg-[#494336] flex-col-reverse xl:flex-row flex items-center pr-8 sm:pr-10 lg:pr-12 xl:pr-0 justify-center xl:justify-end pl-8 sm:pl-10 lg:pl-12 gap-0 md:gap-16 min-[1300px]:gap-[100px] pb-11">
+    <div className="overflow-x-hidden bg-[#494336]">
+      <div className="max-w-[1340px] ml-auto 2xl:mx-auto flex-col-reverse xl:flex-row flex items-center pr-8 sm:pr-10 lg:pr-12 xl:pr-0 justify-center xl:justify-end pl-8 sm:pl-10 lg:pl-12 gap-0 md:gap-16 min-[1300px]:gap-[100px] pb-11">
         <div
           data-aos="fade-up"
           data-aos-duration="1500"
@@ -28,7 +28,7 @@ function HeroSection() {
         <div
           data-aos="fade-up"
           data-aos-duration="1000"
-          className="max-w-[220px] md:max-w-[350px] lg:max-w-[450px] min-[1290px]:max-w-[528px] mt-5"
+          className="max-w-[220px] md:max-w-[350px] lg:max-w-[450px] min-[1290px]:max-w-[528px] mt-5 -mr-4 2xl:mr-[-60px]"
         >
           <img
             src={hero}

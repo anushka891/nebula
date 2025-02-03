@@ -3,7 +3,7 @@ import { careData } from "../helper/Helper";
 
 function CareSection() {
   return (
-    <div className="flex-wrap md:flex-nowrap flex bg-[#494336] gap-x-7 lg:gap-x-14 xl:gap-x-24 gap-y-4 sm:gap-y-5 text-start sm:text-center max-w-[1440px] mx-auto justify-start sm:justify-center px-10 sm:px-8 py-10 sm:py-14 md:py-20">
+    <div className="flex-wrap md:flex-nowrap flex bg-[#494336] gap-x-7 lg:gap-x-14 xl:gap-x-24 gap-y-4 sm:gap-y-5 text-start sm:text-center justify-start sm:justify-center px-10 sm:px-8 py-10 sm:py-14 md:py-20">
       {careData.map((item, index) => (
         <div
           data-aos="fade-up"

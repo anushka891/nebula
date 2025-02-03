@@ -9,47 +9,10 @@ import dog4 from "./../../assests/img/png/dog-img-4-new.png";
 function DogsSection() {
   return (
     <div className="bg-[#D7D9DD] pt-10 sm:pt-20 pb-0 sm:pb-10 px-8 sm:px-0 colorful">
-      {/* <Swiper
-        pagination={true}
-        modules={[Pagination]}
-        slidesPerView={3.8}
-        spaceBetween={20}
-        centeredSlides={true}
-        loop={true}
-        breakpoints={{
-          300: {
-            slidesPerView: 1,
-          },
-          450: {
-            slidesPerView: 2,
-          },
-          768: {
-            slidesPerView: 2.6,
-          },
-          1024: {
-            slidesPerView: 3.8,
-          },
-        }}
-        className="mySwiper"
-      >
-        {dogsliderData.map((item, index) => (
-          <div key={index}>
-            <SwiperSlide className="w-full">
-              <div className="max-w-[420px] h-[300px] sm:h-[420px] overflow-hidden">
-                <img
-                  src={item.img}
-                  alt="dog"
-                  className="w-full h-full object-cover"
-                />
-              </div>
-            </SwiperSlide>
-          </div>
-        ))}
-      </Swiper> */}
       <Swiper
         pagination={true}
         modules={[Pagination]}
-        slidesPerView={2.5}
+        slidesPerView={2.8}
         spaceBetween={20}
         centeredSlides={true}
         loop={true}
@@ -63,8 +26,11 @@ function DogsSection() {
           800: {
             slidesPerView: 2.2,
           },
-          1024: {
-            slidesPerView: 2.5,
+          1440: {
+            slidesPerView: 2.8,
+          },
+          2124: {
+            slidesPerView: 5,
           },
         }}
         className="mySwiper"
@@ -95,6 +61,36 @@ function DogsSection() {
               className="min-h-[420px]"
               src={dog4}
               alt="dog4"
+              width={"100%"}
+            />
+          </div>
+        </SwiperSlide>
+        <SwiperSlide className=" sm:min-w-[350px] md:min-h-[420px] w-full max-w-[350px] md:max-w-[420px]">
+          <div className="max-w-[350px] md:max-w-[420px] w-full">
+            <img
+              className="min-h-[420px]"
+              src={dog3}
+              alt="dog3"
+              width={"100%"}
+            />
+          </div>
+        </SwiperSlide>
+        <SwiperSlide className="min-h-[296px] sm:min-w-[350px] md:min-h-[420px] w-full max-w-[350px] md:max-w-[420px]">
+          <div className="max-w-[350px] md:max-w-[420px] w-full">
+            <img
+              className="min-h-[420px]"
+              src={dog2}
+              alt="dog2"
+              width={"100%"}
+            />
+          </div>
+        </SwiperSlide>
+        <SwiperSlide className="min-h-[296px] sm:min-w-[350px] md:min-h-[420px] w-full max-w-[350px] md:max-w-[420px]">
+          <div className="max-w-[350px] md:max-w-[420px] w-full">
+            <img
+              className="min-h-[420px]"
+              src={dog2}
+              alt="dog2"
               width={"100%"}
             />
           </div>

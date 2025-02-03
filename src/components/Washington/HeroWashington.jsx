@@ -1,11 +1,11 @@
 import React from "react";
 import SubChild from "../common/SubChild";
 import Button from "../common/Button";
-import hero from "./../../assests/img/png/washington-hero-main.png";
+import hero from "./../../assests/img/png/location-main-icon.png";
 function HeroWashington() {
   return (
-    <div className="overflow-x-hidden">
-      <div className="bg-[#494336] flex-col-reverse xl:flex-row flex items-end pr-8 sm:pr-10 lg:pr-12 xl:pr-0 justify-center xl:justify-end pl-8 sm:pl-10 lg:pl-12 gap-0 md:gap-9 xl:gap-[60px] ml-auto mr-0">
+    <div className="overflow-x-hidden bg-[#494336]">
+      <div className="max-w-[1340px] ml-auto 2xl:mx-auto flex-col-reverse xl:flex-row flex items-end pr-8 sm:pr-10 lg:pr-12 xl:pr-0 justify-center xl:justify-end pl-8 sm:pl-10 lg:pl-12 gap-0 md:gap-9 xl:gap-[60px]">
         <div
           data-aos="fade-right"
           data-aos-duration="1000"
@@ -25,7 +25,7 @@ function HeroWashington() {
         <div
           data-aos="fade-left"
           data-aos-duration="1000"
-          className="max-w-[240px] sm:max-w-[400px] lg:max-w-[580px] mx-auto xl:mr-0 xl:ml-0 pt-8 sm:pt-10 md:pt-14 lg:pt-[105px] pb-0 lg:pb-12"
+          className="max-w-[240px] sm:max-w-[350px] md:max-w-[400px] lg:max-w-[450px] xl:max-w-[580px] mr-[-40px] xl:ml-0 pt-8 sm:pt-10 md:pt-14 lg:pt-[105px] pb-0 lg:pb-12"
         >
           <img src={hero} alt="hero" width={"100%"} />
         </div>

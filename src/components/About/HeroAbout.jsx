@@ -5,7 +5,7 @@ import hero from "./../../assests/img/png/about-hero-main.png";
 function HeroAbout() {
   return (
     <div className="bg-[#494336]">
-      <div className="flex-col-reverse xl:flex-row flex items-end pr-8 sm:pr-10 lg:pr-12 xl:pr-0 justify-center xl:justify-end pl-8 sm:pl-10 lg:pl-12 gap-0 md:gap-9 xl:gap-20 ml-auto mr-0">
+      <div className="max-w-[1340px] ml-auto 2xl:mx-auto flex-col-reverse xl:flex-row flex items-end pr-8 sm:pr-10 lg:pr-12 xl:pr-0 justify-center xl:justify-end pl-8 sm:pl-10 lg:pl-12 gap-0 md:gap-9 xl:gap-20">
         <div
           data-aos="fade-right"
           data-aos-offset="300"

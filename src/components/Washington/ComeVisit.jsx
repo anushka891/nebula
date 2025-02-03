@@ -5,7 +5,7 @@ import come from "./../../assests/img/png/come-main.png";
 function ComeVisit() {
   return (
     <div className="bg-[#494336]">
-      <div className="flex-wrap md:flex-nowrap flex justify-center md:justify-end pr-8 gap-10 lg:gap-24 xl:gap-[316px] items-center px-8">
+      <div className="flex-wrap md:flex-nowrap flex justify-center md:justify-end pr-8 gap-10 lg:gap-24 xl:gap-[316px] items-center px-8 max-w-[1240px] ml-auto 2xl:mx-auto">
         <div className="mt-14 md:mt-0 text-start">
           <Mainheading
             maintitle={"Come visit us!"}

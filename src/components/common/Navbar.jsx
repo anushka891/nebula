@@ -18,9 +18,11 @@ function Navbar() {
       document.body.style.overflow = "auto";
     };
   }, [isSidebarOpen]);
+
   const toggleSidebar = () => {
     setIsSidebarOpen(!isSidebarOpen);
   };
+
   return (
     <div className="bg-[#494336]">
       <div className="max-w-[1340px] mx-auto px-4 min-[350px]:px-8 md:px-10 lg:px-12 py-6 sm:py-4">
@@ -57,15 +59,16 @@ function Navbar() {
           </div>
         </div>
       </div>
+
       {isSidebarOpen && (
         <>
           <div
-            className="fixed top-0 left-0 w-full h-full bg-black bg-opacity-50 backdrop-blur-sm z-10"
+            className="fixed top-0 left-0 w-full h-full bg-black bg-opacity-50 backdrop-blur-sm z-10 !overflow-y-scroll"
             onClick={toggleSidebar}
           ></div>
           {/* Sidebar */}
           <div
-            className={`fixed top-0 left-0 w-3/4 sm:w-2/3 h-full p-3 sm:p-6 transition-transform bg-[#494336] duration-300 ease-in-out max-w-[330px] sm:max-w-[400px] z-20`}
+            className={`fixed top-0 right-0 w-3/4 sm:w-2/3 h-full p-3 sm:p-6 transition-transform bg-[#494336] duration-300 ease-in-out max-w-[330px] sm:max-w-[400px] z-20 overflow-y-scroll`}
           >
             <Sidebar close={toggleSidebar} />
           </div>

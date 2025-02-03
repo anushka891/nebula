@@ -26,7 +26,7 @@ const AccordionItem = ({ item, index, activeIndex, toggleAccordion }) => (
       </span>
     </button>
     {activeIndex === index && (
-      <div className="p-4 text-[#D7D9DD]">
+      <div className="p-4 text-[#D7D9DD] text-start">
         <p>{item.answer}</p>
       </div>
     )}
@@ -45,7 +45,7 @@ const Accordion = () => {
 
   return (
     <div className="bg-[#494336]">
-      <div className="max-w-[1340px] mx-auto px-4 min-[350px]:px-8 md:px-10 lg:px-12 justify-center flex flex-col py-12 sm:py-18 md:py-20">
+      <div className="max-w-[1340px] mx-auto px-8 md:px-10 lg:px-12 justify-center flex flex-col py-12 sm:py-18 md:py-20">
         <Mainheading
           maintitle={"Why choose Nebula Vets?"}
           className={

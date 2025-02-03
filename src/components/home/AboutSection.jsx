@@ -9,14 +9,10 @@ function AboutSection() {
   return (
     <div className="overflow-x-hidden">
       <div className="bg-[rgba(215,217,221,0.50)] relative">
-        <div>
-          <img
-            className="absolute right-0 top-[400px] xl:top-0 max-w-[260px] sm:max-w-[350px] xl:max-w-[611px]"
-            src={pos}
-            alt="position"
-          />
+        <div className="max-w-[220px] sm:max-w-[350px] xl:max-w-[611px] absolute right-0 top-[400px] xl:top-0 z-[-10]">
+          <img src={pos} alt="position" />
         </div>
-        <div className="max-w-[1340px] mx-auto px-4 min-[350px]:px-8 md:px-10 lg:px-12 flex-wrap xl:flex-nowrap flex gap-[60px] items-center pb-[60px] pt-8 md:py-20 justify-center xl:justify-between">
+        <div className="max-w-[1440px] mx-auto px-4 min-[350px]:px-8 md:px-10 lg:px-12 flex-wrap xl:flex-nowrap flex gap-[60px] items-center pb-[60px] pt-8 md:py-20 justify-center xl:justify-between">
           <div
             data-aos="fade-left"
             data-aos-anchor="#example-anchor"

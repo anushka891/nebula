@@ -4,7 +4,7 @@ import SubChildSecond from "../common/SubChildSecond";
 import SubChild from "../common/SubChild";
 function Inspiration() {
   return (
-    <div className="flex-wrap lg:flex-nowrap flex py-[60px] md:py-20 gap-14 lg:gap-10 xl:gap-[60px]  px-8 md:px-10 xl:px-[70px] items-start justify-start">
+    <div className="flex-wrap lg:flex-nowrap flex py-[60px] md:py-20 gap-14 lg:gap-10 xl:gap-[60px]  px-8 md:px-10 xl:px-[70px] items-start justify-start max-w-[1340px] 2xl:mx-auto">
       <div
         data-aos="fade-right"
         data-aos-duration="1500"

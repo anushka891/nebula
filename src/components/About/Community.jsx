@@ -6,7 +6,7 @@ function Community() {
   return (
     <div
       data-aos="fade-up"
-      className="flex-wrap lg:flex-nowrap flex py-[60px] md:py-20 gap-14 lg:gap-10 xl:gap-[60px] px-8 md:px-10 xl:px-[70px] items-start justify-start"
+      className="flex-wrap lg:flex-nowrap flex py-[60px] md:py-20 gap-14 lg:gap-10 xl:gap-[60px] px-8 md:px-10 xl:px-[70px] items-start justify-start max-w-[1340px] 2xl:mx-auto"
     >
       <div className="max-w-[600px] mx-auto lg:ml-0 lg:mr-0">
         <img src={main} alt="main" width={"100%"} />
@@ -20,7 +20,7 @@ function Community() {
         />
         <SubChildSecond
           title={"Sustainability & Environmental Responsibility"}
-          className={"max-w-[320px]"}
+          className={"max-w-[430px]"}
         />
         <SubChild
           title={

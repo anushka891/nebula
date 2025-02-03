@@ -13,9 +13,9 @@ function Footer() {
       data-aos="fade-down"
       data-aos-easing="linear"
       data-aos-duration="1200"
-      className="bg-[#494336]"
+      className="bg-[#494336] border-t-[1px] border-t-[#D8DADC]"
     >
-      <div className="max-w-[1340px] mx-auto px-4 min-[350px]:px-8 md:px-10 lg:px-12 border-t-[1px] border-t-[#D8DADC] pb-[100px] sm:pb-12 pt-[60px]">
+      <div className="max-w-[1340px] mx-auto px-8 md:px-10 lg:px-12 pb-[100px] sm:pb-12 pt-[60px]">
         <div className="flex-wrap lg:flex-nowrap flex justify-between gap-10 sm:gap-14">
           <div className="w-full lg:w-[25%]">
             <p className="text-base sm:text-xl md:text-2xl font-normal leading-[150%] roboto text-[#D7D9DD] text-start">
@@ -29,6 +29,7 @@ function Footer() {
             <div className="flex gap-5">
               {footImgData.map((item, index) => (
                 <Link
+                  target="blank"
                   to={item.url}
                   key={index}
                   className="hover:translate-y-2 duration-300 hover:shadow-lg

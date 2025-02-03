@@ -5,8 +5,8 @@ import hero from "./../../assests/img/png/dental-hero-main.png";
 
 function HeroDental() {
   return (
-    <div className="overflow-x-hidden">
-      <div className="bg-[#494336] flex-col-reverse xl:flex-row flex items-end pr-8 sm:pr-10 lg:pr-12 xl:pr-0 justify-center xl:justify-end pl-8 sm:pl-10 lg:pl-12 gap-0 md:gap-20 lg:gap-[130px] ml-auto mr-0">
+    <div className="overflow-x-hidden bg-[#494336]">
+      <div className="max-w-[1340px] ml-auto 2xl:mx-auto flex-col-reverse xl:flex-row flex items-end pr-8 sm:pr-10 lg:pr-12 xl:pr-0 justify-center xl:justify-end pl-8 sm:pl-10 lg:pl-12 gap-0 md:gap-10 lg:gap-12 xl:gap-[130px] ml-auto mr-0">
         <div className="max-w-full xl:max-w-[661px] text-start pb-14 md:pb-20">
           <h2
             data-aos="fade-up-right"
@@ -27,7 +27,7 @@ function HeroDental() {
             <Button btnTitle={"Book Now"} />
           </div>
         </div>
-        <div className="max-w-[506px] mx-auto xl:mr-0 xl:ml-0 pt-8 sm:pt-12 md:pt-20 lg:pt-24">
+        <div className="max-w-[250px] sm:max-w-[350px] md:max-w-[400px] lg:max-w-[450px] xl:max-w-[506px] xl:mr-0 xl:ml-0 pt-8 sm:pt-12 md:pt-14 lg:pt-16 xlpt-24 mr-[-50px]">
           <img src={hero} alt="hero" width={"100%"} />
         </div>
       </div>

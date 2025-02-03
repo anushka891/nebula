@@ -17,7 +17,7 @@ function MeetTeam() {
             <div
               data-aos="zoom-out"
               data-aos-duration="1000"
-              className="max-w-[98px] sm:max-w-[120px] md:max-w-[207px]"
+              className="max-w-[98px] sm:max-w-[150px] lg:max-w-[160px] xl max-w-[180px] min-[1430px]:max-w-[207px]"
             >
               <img src={circle} alt="circle" width={"100%"} />
             </div>

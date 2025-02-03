@@ -44,25 +44,25 @@ function SnapTest() {
                   <li className="text-[24px] roboto font-normal leading-[150%] text-[#D7D9DD] list-disc mb-1">
                     SNAP Lepto Test
                   </li>
-                  <li className="text-sm sm:text-base md:text-xl avant list-disc text-[#D7D9DD] leading-[26px] font-normal ml-5 pb-8">
+                  <li className="text-sm sm:text-base md:text-xl avant list-disc text-[#D7D9DD] leading-[26px] font-normal ml-5 pb-8 roboto">
                     Add description
                   </li>
                   <li className="text-[24px] roboto font-normal leading-[150%] text-[#D7D9DD] list-disc mb-1">
                     SNAP cPL Test
                   </li>
-                  <li className="text-sm sm:text-base md:text-xl avant list-disc text-[#D7D9DD] leading-[26px] font-normal ml-5 pb-8">
+                  <li className="text-sm sm:text-base md:text-xl roboto list-disc text-[#D7D9DD] leading-[26px] font-normal ml-5 pb-8">
                     Assess canine pancreatic health
                   </li>
                   <li className="text-[24px] roboto font-normal leading-[150%] text-[#D7D9DD] list-disc mb-1">
                     SNAP Giardia Test
                   </li>
-                  <li className="text-sm sm:text-base md:text-xl avant list-disc text-[#D7D9DD] leading-[26px] font-normal ml-5 pb-8">
+                  <li className="text-sm sm:text-base md:text-xl roboto list-disc text-[#D7D9DD] leading-[26px] font-normal ml-5 pb-8">
                     Add description
                   </li>
                   <li className="text-[24px] roboto font-normal leading-[150%] text-[#D7D9DD] list-disc mb-1">
                     SNAP Parvo Test
                   </li>
-                  <li className="text-sm sm:text-base md:text-xl avant list-disc text-[#D7D9DD] leading-[26px] font-normal ml-5 pb-4">
+                  <li className="text-sm sm:text-base md:text-xl roboto list-disc text-[#D7D9DD] leading-[26px] font-normal ml-5 pb-4">
                     Add description
                   </li>
                 </ul>
@@ -77,25 +77,25 @@ function SnapTest() {
                   <li className="text-[24px] roboto font-normal leading-[150%] text-[#D7D9DD] list-disc mb-1">
                     SNAP FIV/FeLV Combo Test
                   </li>
-                  <li className="text-sm sm:text-base md:text-xl avant list-disc text-[#D7D9DD] leading-[26px] font-normal ml-5 pb-8">
+                  <li className="text-sm sm:text-base md:text-xl roboto list-disc text-[#D7D9DD] leading-[26px] font-normal pb-8">
                     Add description
                   </li>
                   <li className="text-[24px] roboto font-normal leading-[150%] text-[#D7D9DD] list-disc mb-1">
                     SNAP fPL Test
                   </li>
-                  <li className="text-sm sm:text-base md:text-xl avant list-disc text-[#D7D9DD] leading-[26px] font-normal ml-5 pb-8">
+                  <li className="text-sm sm:text-base md:text-xl roboto list-disc text-[#D7D9DD] leading-[26px] font-normal pb-8">
                     Assess feline pancreatic health
                   </li>
                   <li className="text-[24px] roboto font-normal leading-[150%] text-[#D7D9DD] list-disc mb-1">
                     SNAP Giardia Test
                   </li>
-                  <li className="text-sm sm:text-base md:text-xl avant list-disc text-[#D7D9DD] leading-[26px] font-normal ml-5 pb-8">
+                  <li className="text-sm sm:text-base md:text-xl roboto list-disc text-[#D7D9DD] leading-[26px] font-normal pb-8">
                     Add description
                   </li>
                   <li className="text-[24px] roboto font-normal leading-[150%] text-[#D7D9DD] list-disc mb-1">
                     SNAP Feline proBNP Test
                   </li>
-                  <li className="text-sm sm:text-base md:text-xl avant list-disc text-[#D7D9DD] leading-[26px] font-normal ml-5 pb-4">
+                  <li className="text-sm sm:text-base md:text-xl roboto list-disc text-[#D7D9DD] leading-[26px] font-normal pb-4">
                     Quickly assess cats with cardiac risk factors
                   </li>
                 </ul>

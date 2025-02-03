@@ -1,5 +1,5 @@
 import React from "react";
-import wave from "./../../assests/img/png/why-should-position-wave.png";
+import wave from "./../../assests/img/png/emergency-about-wave.png";
 import Subheading from "../common/Subheading";
 import TextLG from "../common/TextLG";
 function CareSection() {
@@ -47,43 +47,43 @@ function CareSection() {
           />
           <div>
             <ul className="ml-5">
-              <li className="text-base md:text-lg avant text-[#494336] font-normal list-disc mb-1 sm:mb-0">
+              <li className="text-sm sm:text-base md:text-lg avant text-[#494336] font-normal list-disc mb-1 sm:mb-0">
                 Open wounds
               </li>
-              <li className="text-base md:text-lg avant text-[#494336] font-normal list-disc mb-1 sm:mb-0">
+              <li className="text-sm sm:text-base md:text-lg avant text-[#494336] font-normal list-disc mb-1 sm:mb-0">
                 Toxin ingestion or foreign body
               </li>
-              <li className="text-base md:text-lg avant text-[#494336] font-normal list-disc mb-1 sm:mb-0">
+              <li className="text-sm sm:text-base md:text-lg avant text-[#494336] font-normal list-disc mb-1 sm:mb-0">
                 Signs of pain
               </li>
-              <li className="text-base md:text-lg avant text-[#494336] font-normal list-disc mb-1 sm:mb-0">
+              <li className="text-sm sm:text-base md:text-lg avant text-[#494336] font-normal list-disc mb-1 sm:mb-0">
                 Behavioral changes
               </li>
-              <li className="text-base md:text-lg avant text-[#494336] font-normal list-disc mb-1 sm:mb-0">
+              <li className="text-sm sm:text-base md:text-lg avant text-[#494336] font-normal list-disc mb-1 sm:mb-0">
                 Eye issues
               </li>
-              <li className="text-base md:text-lg avant text-[#494336] font-normal list-disc mb-1 sm:mb-0">
+              <li className="text-sm sm:text-base md:text-lg avant text-[#494336] font-normal list-disc mb-1 sm:mb-0">
                 Ear infections
               </li>
-              <li className="text-base md:text-lg avant text-[#494336] font-normal list-disc mb-1 sm:mb-0">
+              <li className="text-sm sm:text-base md:text-lg avant text-[#494336] font-normal list-disc mb-1 sm:mb-0">
                 Vomiting or diarrhea
               </li>
-              <li className="text-base md:text-lg avant text-[#494336] font-normal list-disc mb-1 sm:mb-0">
+              <li className="text-sm sm:text-base md:text-lg avant text-[#494336] font-normal list-disc mb-1 sm:mb-0">
                 Hair loss
               </li>
-              <li className="text-base md:text-lg avant text-[#494336] font-normal list-disc mb-1 sm:mb-0">
+              <li className="text-sm sm:text-base md:text-lg avant text-[#494336] font-normal list-disc mb-1 sm:mb-0">
                 Coughing, sneezing or nasal discharge
               </li>
-              <li className="text-base md:text-lg avant text-[#494336] font-normal list-disc mb-1 sm:mb-0">
+              <li className="text-sm sm:text-base md:text-lg avant text-[#494336] font-normal list-disc mb-1 sm:mb-0">
                 Urinating blood or urinary changes
               </li>
-              <li className="text-base md:text-lg avant text-[#494336] font-normal list-disc mb-1 sm:mb-0">
+              <li className="text-sm sm:text-base md:text-lg avant text-[#494336] font-normal list-disc mb-1 sm:mb-0">
                 Worms, fleas, ticks or mites
               </li>
-              <li className="text-lg avant text-[#494336] font-normal list-disc mb-1 sm:mb-0">
+              <li className="text-sm sm:text-base md:text-lg avant text-[#494336] font-normal list-disc mb-1 sm:mb-0">
                 Scooting
               </li>
-              <li className="text-base md:text-lg avant text-[#494336] font-normal list-disc">
+              <li className="text-sm sm:text-base md:text-lg avant text-[#494336] font-normal list-disc">
                 Changes in eating or drinking
               </li>
             </ul>

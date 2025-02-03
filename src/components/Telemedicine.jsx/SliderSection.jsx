@@ -18,11 +18,11 @@ function SliderSection() {
             spaceBetween={20}
             slidesPerView={4}
             breakpoints={{
-              300: {
-                slidesPerView: 1,
-              },
               360: {
-                slidesPerView: 1.6,
+                slidesPerView: 1.3,
+              },
+              450: {
+                slidesPerView: 1.7,
               },
               640: {
                 slidesPerView: 2.6,

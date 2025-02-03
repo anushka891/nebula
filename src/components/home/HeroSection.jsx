@@ -16,21 +16,23 @@ function HeroSection() {
             alt="position"
           />
         </div>
-        <div className="max-w-[511px] text-start ml-12 sm:ml-20 md:ml-28 lg:ml-[150px] xl:ml-[182px]">
-          <h2
-            data-aos="fade-right"
-            className="text-5xl md:text-6xl lg:text-7xl text-[#D7D9DD] font-normal leading-normal pt-[150px] lg:pt-[193px] mb-7 avant mx-2"
-          >
-            Welcome to Nebula Vets
-          </h2>
-          <p
-            data-aos="fade-left"
-            className="text-3xl text-[#D7D9DD] font-normal roboto leading-normal mb-8 mx-2"
-          >
-            Reinventing Pet Medicine
-          </p>
-          <div data-aos="flip-left" data-aos-duration="1500">
-            <Button btnTitle={"Book Now"} className={"mb-20"} />
+        <div className="max-w-[1320px] mx-auto w-full">
+          <div className="max-w-[511px] text-start ml-8 md:ml-12 xl:ml-[130px]">
+            <h2
+              data-aos="fade-right"
+              className="text-5xl md:text-6xl lg:text-7xl text-[#D7D9DD] font-normal leading-normal pt-[150px] lg:pt-[193px] mb-7 avant mx-2"
+            >
+              Welcome to Nebula Vets
+            </h2>
+            <p
+              data-aos="fade-left"
+              className="text-3xl text-[#D7D9DD] font-normal roboto leading-normal mb-8 mx-2"
+            >
+              Reinventing Pet Medicine
+            </p>
+            <div data-aos="flip-left" data-aos-duration="1500">
+              <Button btnTitle={"Book Now"} className={"mb-20"} />
+            </div>
           </div>
         </div>
       </div>

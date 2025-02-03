@@ -1,14 +1,7 @@
 import React, { useRef, useState } from "react";
-// Import Swiper React components
 import { Swiper, SwiperSlide } from "swiper/react";
-
-// Import Swiper styles
 import "swiper/css";
 import "swiper/css/pagination";
-
-// import "./styles.css";
-
-// import required modules
 import { Pagination } from "swiper/modules";
 import prev from "./../../assests/img/png/slider-img-1.png";
 import Subheading from "./Subheading";
@@ -16,11 +9,12 @@ import TextLG from "./TextLG";
 import sick from "./../../assests/img/png/slider-img-2.png";
 import sur from "./../../assests/img/png/slider-img-3.png";
 import add from "./../../assests/img/png/slider-img-4.png";
+import { Link } from "react-router-dom";
 export default function App() {
   return (
     <div
       id="preventive"
-      className="pl-8 pr-0 sm:px-10 xl:px-[70px] black-pagination"
+      className="pl-8 pr-0 sm:px-10 xl:px-[70px] black-pagination max-w-[1440px] mx-auto"
     >
       <Swiper
         pagination={true}
@@ -53,15 +47,25 @@ export default function App() {
               subtitle={"Preventive Care"}
               className={"text-[#D7D9DD] mb-4"}
             />
-            <TextLG
-              title={"Animal Health Check"}
-              textclass={"text-[#D7D9DD] mb-[6px] underline"}
-            />
-            <TextLG
-              title={"Vaccinations"}
-              textclass={"text-[#D7D9DD] mb-[6px] underline"}
-            />
-            <TextLG title={"Dental"} textclass={"text-[#D7D9DD] underline"} />
+            <Link to={"health-check"}>
+              <TextLG
+                title={"Animal Health Check"}
+                textclass={
+                  "text-[#D7D9DD] mb-[6px] underline hover:text-white duration-300"
+                }
+              />
+            </Link>
+            <Link to={"vaccination"}>
+              <TextLG
+                title={"Vaccinations"}
+                textclass={
+                  "text-[#D7D9DD] mb-[6px] underline hover:text-white duration-300"
+                }
+              />
+            </Link>
+            <Link to={"dental"}>
+              <TextLG title={"Dental"} textclass={"text-[#D7D9DD] underline"} />
+            </Link>
           </div>
         </SwiperSlide>
         <SwiperSlide className="!h-auto">
@@ -74,23 +78,44 @@ export default function App() {
               subtitle={"Sick Patient Care"}
               className={"text-[#D7D9DD] mb-4"}
             />
-            <TextLG
-              title={"Urgent & "}
-              textclass={"text-[#D7D9DD] underline"}
-            />
-            <TextLG
-              title={"Emergency Care"}
-              textclass={"text-[#D7D9DD] mb-[6px] underline"}
-            />
-            <TextLG
-              title={"Telemedicine"}
-              textclass={"text-[#D7D9DD] underline"}
-            />
-            <TextLG
-              title={"Diagnostics"}
-              textclass={"text-[#D7D9DD] underline"}
-            />
-            <TextLG title={"Pharmacy"} textclass={"text-[#D7D9DD] underline"} />
+            <Link to={"emergency"}>
+              <TextLG
+                title={"Urgent & "}
+                textclass={
+                  "text-[#D7D9DD] underline hover:text-white duration-300"
+                }
+              />
+              <TextLG
+                title={"Emergency Care"}
+                textclass={
+                  "text-[#D7D9DD] mb-[6px] underline hover:text-white duration-300"
+                }
+              />
+            </Link>
+            <Link to={"medicine"}>
+              <TextLG
+                title={"Telemedicine"}
+                textclass={
+                  "text-[#D7D9DD] underline hover:text-white duration-300"
+                }
+              />
+            </Link>
+            <Link to={"digno"}>
+              <TextLG
+                title={"Diagnostics"}
+                textclass={
+                  "text-[#D7D9DD] underline hover:text-white duration-300"
+                }
+              />
+            </Link>
+            <Link to={"pharmecy"}>
+              <TextLG
+                title={"Pharmacy"}
+                textclass={
+                  "text-[#D7D9DD] underline hover:text-white duration-300"
+                }
+              />
+            </Link>
           </div>
         </SwiperSlide>
         <SwiperSlide className="!h-auto">
@@ -103,14 +128,22 @@ export default function App() {
               subtitle={"Surgery"}
               className={"text-[#D7D9DD] mb-4"}
             />
-            <TextLG
-              title={"Surgeries"}
-              textclass={"text-[#D7D9DD] mb-[6px] underline"}
-            />
-            <TextLG
-              title={"Spay & Neuter"}
-              textclass={"text-[#D7D9DD] mb-[6px] underline"}
-            />
+            <Link to={"surgery"}>
+              <TextLG
+                title={"Surgeries"}
+                textclass={
+                  "text-[#D7D9DD] mb-[6px] underline hover:text-white duration-300"
+                }
+              />
+            </Link>
+            <Link to={"spray"}>
+              <TextLG
+                title={"Spray & Neuter"}
+                textclass={
+                  "text-[#D7D9DD] mb-[6px] underline hover:text-white duration-300"
+                }
+              />
+            </Link>
           </div>
         </SwiperSlide>
         <SwiperSlide className="!h-auto">
@@ -123,18 +156,30 @@ export default function App() {
               subtitle={"Additional Services"}
               className={"text-[#D7D9DD] mb-4"}
             />
-            <TextLG
-              title={"Travel Certificates"}
-              textclass={"text-[#D7D9DD] mb-[6px] underline"}
-            />
-            <TextLG
-              title={"Skin & Dermatology"}
-              textclass={"text-[#D7D9DD] mb-[6px] underline"}
-            />
-            <TextLG
-              title={"Euthanasia"}
-              textclass={"text-[#D7D9DD] underline"}
-            />
+            <Link to={"travel"}>
+              <TextLG
+                title={"Travel Certificates"}
+                textclass={
+                  "text-[#D7D9DD] mb-[6px] underline hover:text-white duration-300"
+                }
+              />
+            </Link>
+            <Link to={"skin"}>
+              <TextLG
+                title={"Skin & Dermatology"}
+                textclass={
+                  "text-[#D7D9DD] mb-[6px] underline hover:text-white duration-300"
+                }
+              />
+            </Link>
+            <Link to={"hospice"}>
+              <TextLG
+                title={"Euthanasia"}
+                textclass={
+                  "text-[#D7D9DD] underline hover:text-white duration-300"
+                }
+              />
+            </Link>
           </div>
         </SwiperSlide>
       </Swiper>

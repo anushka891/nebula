@@ -10,7 +10,7 @@ function Innovation() {
       <div className="absolute bottom-0 md:bottom-[-30px] w-full -z-[2]">
         <img src={inno} alt="wave" width={"100%"} />
       </div>
-      <div className="flex-col-reverse lg:flex-row flex pb-20 py-[60px] md:py-20 gap-14 lg:gap-11 px-8 md:px-10 xl:px-[70px] items-center min-[1100px]:items-start justify-end">
+      <div className="flex-col-reverse lg:flex-row flex pb-20 py-[60px] md:py-20 gap-14 lg:gap-11 px-8 md:px-10 xl:px-[70px] items-center min-[1100px]:items-start justify-end max-w-[1340px] 2xl:mx-auto">
         <div
           data-aos="fade-right"
           data-aos-duration="1000"

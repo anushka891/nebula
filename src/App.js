@@ -26,7 +26,9 @@ import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import Layout from './components/layout/Layout';
 function App() {
     useEffect(() => {
-    AOS.init({});
+    AOS.init({
+      once: true,  
+    });
   }, []);
   return (
     <div className="App">

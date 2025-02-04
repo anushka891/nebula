@@ -1,6 +1,5 @@
 import React, { useState } from "react";
 import { accordEmergencyData } from "../helper/Helper";
-import minus from "./../../assests/img/png/minus-icon-1.png";
 import plus from "./../../assests/img/png/plus-icon.png";
 
 const AccordionItem = ({ question, answer, isActive, onClick }) => {
@@ -17,8 +16,8 @@ const AccordionItem = ({ question, answer, isActive, onClick }) => {
           <span>
             {isActive ? (
               <img
-                className="max-w-[24px] sm:max-w-[30px]"
-                src={minus}
+                className="max-w-[24px] sm:max-w-[30px] rotate-45"
+                src={plus}
                 alt="minus"
               />
             ) : (

@@ -1,5 +1,4 @@
 import React, { useState } from "react";
-import minus from "./../../assests/img/png/minus-icon-1.png";
 import plus from "./../../assests/img/png/plus-icon.png";
 import { accordata, accordianData } from "../helper/Helper";
 import Mainheading from "./Mainheading";
@@ -16,8 +15,8 @@ const AccordionItem = ({ item, index, activeIndex, toggleAccordion }) => (
       <span className="text-xl">
         {activeIndex === index ? (
           <img
-            className="max-w-[24px] sm:max-w-[30px]"
-            src={minus}
+            className="max-w-[24px] sm:max-w-[30px] rotate-45"
+            src={plus}
             alt="minus"
           />
         ) : (

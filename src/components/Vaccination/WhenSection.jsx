@@ -21,7 +21,7 @@ function WhenSection() {
           slidesPerView={2}
           centeredSlides={false}
           spaceBetween={20}
-          className="mySwiper brown"
+          className="mySwiper brown mb-11"
           breakpoints={{
             300: {
               slidesPerView: 1,
@@ -115,6 +115,7 @@ function WhenSection() {
         <Swiper
           pagination={true}
           modules={[Pagination]}
+          centeredSlides={false}
           slidesPerView={2}
           spaceBetween={20}
           className="mySwiper brown"
@@ -130,7 +131,7 @@ function WhenSection() {
         >
           <div className="flex gap-5 gap-y-5 h-full">
             <SwiperSlide className="!h-auto">
-              <div className="bg-[#494336] max-w-[547px] pl-5 lg:pl-12 pr-5 pt-9 pb-14 text-start h-full mx-auto mt-14 md:mt-[22px]">
+              <div className="bg-[#494336] max-w-[547px] pl-5 lg:pl-12 pr-5 pt-9 pb-14 text-start mx-auto h-full  md:mt-[22px]">
                 <div className="flex items-center gap-5 mb-4 lg:mb-9">
                   <div>
                     <img src={logo} alt="logo" />
@@ -156,7 +157,7 @@ function WhenSection() {
               </div>
             </SwiperSlide>
             <SwiperSlide className="!h-auto">
-              <div className="bg-[#494336] max-w-[547px] pl-5 lg:pl-12 pr-5 pb-14 text-start h-full  mt-14 md:mt-[22px]">
+              <div className="bg-[#494336] max-w-[547px] pl-5 lg:pl-12 pr-5 pb-14 text-start h-full mx-auto md:mt-[22px]">
                 <div className="flex items-center gap-5 mb-5 lg:mb-9 pt-10">
                   <div>
                     <img src={kitt} alt="logo" />

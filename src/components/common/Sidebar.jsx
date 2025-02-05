@@ -1,6 +1,7 @@
 import React from "react";
 import { navData } from "../helper/Helper";
 import logo from "./../../assests/img/png/logo.png";
+import { Link } from "react-router-dom";
 
 export default function Sidebar({ close }) {
   return (
@@ -19,12 +20,13 @@ export default function Sidebar({ close }) {
         <ul className="mt-6 text-center">
           {navData.map((item, index) => (
             <li key={index} className="text-lg py-2">
-              <a
-                className="text-[#D7D9DD] hover:text-white duration-300 popins"
-                href={item.url}
+              <Link
+                to={item.url}
+                key={index}
+                className="text-sm tracking-[1.4px] roboto uppercase text-[#D7D9DD] font-medium leading-normal hover:!text-transparent hover:!bg-clip-text hover:!bg-gradient-to-r from-[#FFA280] to-[#8FD9D9] duration-300"
               >
                 {item.link}
-              </a>
+              </Link>
             </li>
           ))}
         </ul>

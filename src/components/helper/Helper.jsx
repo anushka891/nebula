@@ -7,6 +7,11 @@ import dog1 from "./../../assests/img/png/dog-img-1.png";
 import dog2 from "./../../assests/img/png/dog-img-2.png";
 import dog3 from "./../../assests/img/png/dog-img-3.png";
 import dog4 from "./../../assests/img/png/dog-img-4.png";
+import prev from "./../../assests/img/png/slider-img-1.png";
+import sick from "./../../assests/img/png/slider-img-2.png";
+import sur from "./../../assests/img/png/slider-img-3.png";
+import add from "./../../assests/img/png/slider-img-4.png";
+
 export const dogsliderData = [
   {
     img: dog1,
@@ -73,26 +78,6 @@ export const footImgData = [
   { url: "https://www.facebook.com/", icon: <FbIcon /> },
   { url: "https://in.linkedin.com/", icon: <LinkIcon /> },
   { url: "https://www.instagram.com/", icon: <InstaIcon /> },
-];
-export const serviceData = [
-  {
-    url: "service",
-    link: "Preventive Care",
-  },
-  { url: "service", link: "Sick Patient Care" },
-  { url: "service", link: "Surgery" },
-  { url: "service", link: "Additional Services" },
-];
-export const companyData = [
-  { url: "about", link: "About us" },
-  {
-    url: "join",
-    link: "Carreers",
-  },
-];
-export const contactData = [
-  { url: "/washing", link: "Phone: (212) 123-4567" },
-  { url: "/washing", link: "hello@nebulavets.com" },
 ];
 export const sliderData = [
   {
@@ -635,5 +620,107 @@ export const meetData = [
   {
     name: "Dr. Jane Doe",
     disc: "Veterinarian",
+  },
+];
+export const footerlinksData = [
+  {
+    Services: [
+      {
+        url: "service",
+        link: "Preventive Care",
+      },
+      { url: "service", link: "Sick Patient Care" },
+      { url: "service", link: "Surgery" },
+      { url: "service", link: "Additional Services" },
+    ],
+    Company: [
+      { url: "about", link: "About us" },
+      {
+        url: "join",
+        link: "Carreers",
+      },
+    ],
+    "Contact Us": [
+      { url: "/washing", link: "Phone: (212) 123-4567" },
+      { url: "/washing", link: "hello@nebulavets.com" },
+    ],
+  },
+];
+export const preventiveSlider = [
+  {
+    img: prev,
+    heading: "Preventive Care",
+    linksData: [
+      {
+        link: "Animal Health Check",
+        href: "/health-check",
+      },
+      {
+        link: "Vaccinations",
+        href: "/vaccination",
+      },
+      {
+        link: "Dental",
+        href: "/dental",
+      },
+    ],
+  },
+  {
+    img: sick,
+    heading: "Sick Patient Care",
+    linksData: [
+      {
+        link: "Urgent &",
+        href: "/emergency",
+      },
+      {
+        link: "Emergency Care",
+        href: "/emergency",
+      },
+      {
+        link: "Telemedicine",
+        href: "/medicine",
+      },
+      {
+        link: "Diagnostics",
+        href: "/digno",
+      },
+      {
+        link: "Pharmacy",
+        href: "/pharmecy",
+      },
+    ],
+  },
+  {
+    img: sur,
+    heading: "Surgery",
+    linksData: [
+      {
+        link: "Surgeries",
+        href: "/surgery",
+      },
+      {
+        link: "Spay & Neuter",
+        href: "/spray",
+      },
+    ],
+  },
+  {
+    img: add,
+    heading: "Additional Services",
+    linksData: [
+      {
+        link: "Travel Certificates",
+        href: "/travel",
+      },
+      {
+        link: "Skin & Dermatology",
+        href: "/skin",
+      },
+      {
+        link: "Euthanasia",
+        href: "/hospice",
+      },
+    ],
   },
 ];

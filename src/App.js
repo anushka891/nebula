@@ -2,7 +2,7 @@
 import React, { useEffect } from "react";
 import './App.css';
 import AOS from 'aos';
-import 'aos/dist/aos.css';  // Import AOS styles
+import 'aos/dist/aos.css';  
 import HomeSection from './components/pages/home/HomeSection';
 import ServicesSection from "./components/pages/home/ServicesSection"
 import HealthCheck from './components/pages/home/HealthCheck';

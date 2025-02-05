@@ -28,16 +28,16 @@ function Navbar() {
       <div className="max-w-[1340px] mx-auto px-4 min-[350px]:px-8 md:px-10 lg:px-12 py-6 sm:py-4">
         <div className="flex items-center justify-between">
           {/* Left section */}
-          <a href="/">
+          <Link to={"/"}>
             <img className="w-[90px] sm:w-[114px]" src={logo} alt="logo" />
-          </a>
+          </Link>
           <div className="flex items-center mr-0 ml-auto gap-16">
             <div className="hidden xl:flex gap-11 items-center">
               {navData.map((item, index) => (
                 <Link
                   to={item.url}
                   key={index}
-                  className="text-sm tracking-[1.4px] roboto uppercase text-[#D7D9DD] font-medium leading-normal hover:text-white duration-300"
+                  className="text-sm tracking-[1.4px] roboto uppercase text-[#D7D9DD] font-medium leading-normal hover:!text-transparent hover:!bg-clip-text hover:!bg-gradient-to-r from-[#FFA280] to-[#8FD9D9] duration-300"
                 >
                   {item.link}
                 </Link>

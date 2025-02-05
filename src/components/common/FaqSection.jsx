@@ -25,8 +25,10 @@ const AccordionItem = ({ item, index, activeIndex, toggleAccordion }) => (
       </span>
     </button>
     {activeIndex === index && (
-      <div className="p-4 text-[#D7D9DD] text-start">
-        <p>{item.answer}</p>
+      <div className="py-4 text-[#D7D9DD] text-start">
+        <p className="text-sm sm:text-base md:text-lg leading-[133%]">
+          {item.answer}
+        </p>
       </div>
     )}
   </div>

@@ -4,8 +4,7 @@ import AboutSection from "../../dentalCare/AboutSection";
 import AccordianDental from "../../dentalCare/AccordianDental";
 import WhyDental from "../../dentalCare/WhyDental";
 import Experience from "../../dentalCare/Experience";
-import WeLook from "../../healthCheck/WeLook";
-function DentalCare() {
+ function DentalCare() {
   return (
     <>
       <HeroDental />

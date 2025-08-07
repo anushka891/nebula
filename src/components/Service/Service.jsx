@@ -1,5 +1,5 @@
 import React from "react";
-import ServiceSection from "./../pages/home/ServicesSection";
+import ServiceSection from "../pages/home/ServicesSection";
 function Service() {
   return (
     <div>
